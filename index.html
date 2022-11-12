@@ -1472,6 +1472,7 @@ src: url(data:application/font-sfnt;base64,AAEAAAARAQAABAAQR0RFRgs+Cz8AAjwQAAAAQ
           <li><a href="#rider" id="toc-rider"><strong>RIDER</strong></a></li>
           <li><a href="#skirmisher" id="toc-skirmisher"><strong>SKIRMISHER</strong></a></li>
           <li><a href="#thief" id="toc-thief"><strong>THIEF</strong></a></li>
+          <li><a href="#vagabond" id="toc-vagabond"><strong>VAGABOND</strong></a></li>
           </ul></li>
           <li><a href="#spellcasting-classes" id="toc-spellcasting-classes"><strong>SPELLCASTING
           CLASSES</strong></a>
@@ -1496,6 +1497,7 @@ src: url(data:application/font-sfnt;base64,AAEAAAARAQAABAAQR0RFRgs+Cz8AAjwQAAAAQ
           <li><a href="#monk" id="toc-monk"><strong>MONK</strong></a></li>
           <li><a href="#paladin" id="toc-paladin"><strong>PALADIN</strong></a></li>
           <li><a href="#sorcerer" id="toc-sorcerer"><strong>SORCERER</strong></a></li>
+          <li><a href="#summoner" id="toc-summoner"><strong>SUMMONER</strong></a></li>
           <li><a href="#swordcaster" id="toc-swordcaster"><strong>SWORDCASTER</strong></a></li>
           <li><a href="#warlock" id="toc-warlock"><strong>WARLOCK</strong></a></li>
           </ul></li>
@@ -3454,21 +3456,20 @@ withdrawal at full speed.</td>
 <h2><strong>MERCHANT</strong></h2>
 <p><strong>Starting Equipment:</strong> Iron dagger, traveling robes,
 10gp.</p>
-<p><strong>A: Evaluate, Market Protection</strong></p>
+<p><strong>A: Evaluate, Boss</strong></p>
 <p><strong>B: Flighty, Prominence</strong></p>
 <p><strong>C: Bargain, Winning Smile</strong></p>
-<p><strong>D: Forge</strong></p>
+<p><strong>D: Forge</strong>, <strong>Guildmaster</strong></p>
 <p>You gain +1 Inventory Slot for each Peddler template you possess.</p>
 <p><strong>A: Evaluate</strong> You know the market value of any mundane
 item. Unique items may require an <strong>save vs INT</strong> to
 evaluate.</p>
-<p><strong>A: Market Protection.</strong> You are immune to the effects
-of any cursed or supernatural items you carry as long as you intend to
-sell them. If you use the item or gain any benefit from it, you suffer
-the negative effects.</p>
+<p><strong>A: Boss.</strong> You have special command over hirelings.
+All morale/loyalty checks for your hirelings receive a bonus equal to
+your <strong>CHA mod</strong>.</p>
 <p><strong>B: Flighty.</strong> If you choose not to attack in a round
-your armour counts as Plate/Heavy. This only applies if you can see your
-enemies.</p>
+your armor counts as AC 17 (this excludes the <strong>Distract</strong>
+maneuver). This only applies if you can see your enemies.</p>
 <p><strong>Prominence.</strong> Once per round, you can choose to be the
 most prominent person in a group or the least prominent person in a
 group. This affects how much enemies will target you. This does not give
@@ -3482,14 +3483,15 @@ one doing the talking.</p>
 any item smaller than a horse. If the item is mundane, it will pass
 inspection for 1d6 hours. If the item is supernatural, your forgery will
 only pass inspection for 1d6 minutes.</p>
-<p><strong>Mechanical Notes on the Peddler</strong> In combat, the
-Peddler’s main ability is to attract attention and survive damage. Two
-Peddlers can work together to keep an enemy distracted, changing who is
+<p><strong>D: Guildmaster.</strong> You can have <strong>3+CHA
+mod</strong> hirelings at any given time in your employ.</p>
+<p><strong>Mechanical Notes on the Merchant</strong> In combat, the
+Merchant’s main ability is to attract attention and survive damage. Two
+Merchants can work together to keep an enemy distracted, changing who is
 the most prominent each round. They start with a dagger, but their main
-role will be running around doing stuff while the fight is taking place.
-In the boss fights I’m designing there will always be something to
-do.</p>
-<p>Out of combat, the Peddler has many tools to assist a group with
+role will be running around doing stuff while the fight is taking
+place.</p>
+<p>Out of combat, the Merchant has many tools to assist a group with
 their schemes. Forgeries are useful. Being the most prominent person
 could allow another PC to sneak by a guard. Being the least prominent
 person can allow you - and your sacks of gold, cursed items, etc. - to
@@ -3502,7 +3504,7 @@ but this one will. Oh my yes.</p>
 who you can, and you live for the moment. You operate on the open seas
 or crewing an airship. It’s a grand life. A survivable, versatile
 rogue.</p>
-<p><strong>Starting Gear:</strong> Light armors, cutlass, flask of
+<p><strong>Starting Gear:</strong> Light armor, cutlass, flask of
 rum.</p>
 <p><strong>A: Dirty Pirate, A Pirate’s Life, +1 HP</strong></p>
 <p><strong>B: Lucky, Duel, +1HP</strong></p>
@@ -4079,6 +4081,38 @@ class.</p>
 <p>The Thief abilities are invented or collected from various other
 thieves and thief-like classes. Every thief gets a unique combination of
 them, depending on what they pick and what they roll.</p>
+</div>
+<div id="vagabond" class="section level2">
+<h2><strong>VAGABOND</strong></h2>
+<p>Knows Hobo signs, can get to places unnoticed, Hobo song, some thief
+skills, King of Beggars</p>
+<p><strong>Starting Equipment</strong>: light armor, dagger. You cannot
+wear heavy armor.</p>
+<p><strong>A: Hobo Signs, Roughin’ It</strong></p>
+<p><strong>B: Roll 1 Thief Ability, Seasoned Traveler, +1HP</strong></p>
+<p><strong>C: Roll 1 Thief Ability, Hobo Song, +1HP</strong></p>
+<p><strong>D: Roll 1 Thief Ability, King of Beggars, +1HP</strong></p>
+<p>You have advantage on <strong>DEX saves</strong> made to move
+silently and unseen, but only when you are alone or working with other
+Thieves.</p>
+<p><strong>A: Hobo Signs.</strong> When entering a steading for the
+first time, or returning from an adventure, you may learn one rumor
+automatically without making a <strong>Save vs Charisma</strong> or
+learn another useful piece of information about the location.</p>
+<p><strong>A: Roughin’ It.</strong> Vagabonds can easily find places to
+rest. They recover 2 <strong>Fatigue</strong> with a <strong>Good
+Night’s Rest</strong>, even under bad weather conditions.</p>
+<p><strong>B: Seasoned Traveler.</strong> During
+<strong>Exploration</strong>, you decrease the party’s chances of
+getting lostby 1-6 and you increase the party’s chances of finding
+interesting places by 1-6.</p>
+<p><strong>C: Hobo Song.</strong> You can know inspiring Hobo songs and
+tall tales. During a <strong>lunch</strong>, you can can entertain the
+party. Each member recovers 1 level of <strong>Fatigue</strong>. This
+benefit can only be received once per day.</p>
+<p><strong>D: King of Beggars.</strong> You can call on the help of
+local beggars and street urchins. Gain 1d12 temporary hirelings that
+help you for the dayfor free.</p>
 </div>
 </div>
 <div id="spellcasting-classes" class="section level1">
@@ -5507,7 +5541,7 @@ or Charisma to prove you really hate a target.</p>
 you must invest 2 [dice]. For a major curse, you must invest 4 [dice].
 Dice used to cast this spell are automatically exhausted. You cannot
 dispel your own curses. (<strong>Curse table</strong>)</p>
-<p><strong>ANIMIST CURSES</strong></p>
+<p><strong>WITCH’ CURSES</strong></p>
 <p>These are only examples. Roll randomly, pick a curse, or inflict
 something thematic.</p>
 <p>Cursed people need to have their curse identified (by a priest, a
@@ -5811,7 +5845,7 @@ exploits.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>ANIMIST WIZARD MISHAPS</strong></p>
+<p><strong>WITCH MISHAPS</strong></p>
 <ol style="list-style-type: decimal">
 <li><p>MD only return to your pool on a 1-2 for 24 hours</p></li>
 <li><p>Take 1d6 damage</p></li>
@@ -5823,7 +5857,7 @@ transformation.</p></li>
 <li><p>Spell targets you (if harmful) or enemy (if beneficial) or
 fizzles (if neutral).</p></li>
 </ol>
-<p><strong>DOOM OF THE ANIMIST</strong></p>
+<p><strong>DOOM OF THE WITCH</strong></p>
 <ol style="list-style-type: decimal">
 <li><p>An aspect of your transformation manifests for 1 day.</p></li>
 <li><p>An aspect of your transformation becomes permanent. You become
@@ -5834,7 +5868,7 @@ monstrous. You become a dangerous NPC.</p></li>
 <p>This doom can be avoided by true love, or by slaying the last of a
 powerful species (black dragons, elder trees, creation elementals,
 abandoned gods).</p>
-<p><strong>ANIMIST WIZARD NOTES</strong></p>
+<p><strong>WITCH NOTES</strong></p>
 <p>People make the sign against the evil eye when you pass. Shops close.
 You will never find true love unless you renounce your class and powers,
 although you might find corrupted substitutes. That’s the deal you made.
@@ -7574,6 +7608,66 @@ opposite of what is intended).</td>
 </tr>
 </tbody>
 </table>
+</div>
+<div id="summoner" class="section level2">
+<h2><strong>SUMMONER</strong></h2>
+<p>Taklen from: <a href="https://coinsandscrolls.blogspot.com/2018/05/osr-class-summoner-20.html" class="uri">https://coinsandscrolls.blogspot.com/2018/05/osr-class-summoner-20.html</a></p>
+<p><strong>Starting Equipment</strong>: 2 sets of mundane robes,
+dagger</p>
+<p><strong>A: +1 SD, +2 Entities, Summoning</strong></p>
+<p><strong>B: +1 SD, +1 Entity, Powerful Hold</strong></p>
+<p><strong>C: +1 SD, +1 Entity, Soul Vision</strong></p>
+<p><strong>D: +1 SD, Master Summoner</strong></p>
+<p>You gain +1 Summoning Die for each Summoner template you possess, to
+a maximum of 4.</p>
+<p><strong>A: Summoning.</strong> There are 99, and only 99,
+<strong>Entities</strong> that can be summoned. Each has a name, a
+description, and a list of abilities. They are sentient, but their minds
+may work in strange ways. Summon an Entity by rolling your Summoning
+Dice. Dice return to your pool and can be used again on a 1-3, but are
+exhausted for the day on a 4-6. On doubles, a Mishap occurs. On triples,
+a Doom occurs.</p>
+<p>You can only summon an Entity once per day. You can summon an entity
+for [sum] hours before it vanishes, possibly to serve another master. It
+takes one round to summon an Entity. You must be able to speak and you
+cannot be distracted.</p>
+<p>You require its true name and a description of the mental acts
+required to call it to you. Seek ancient scrolls, temples, and cults to
+find entities to summon. Unlike Wizard spells, there are no limits on
+the number of <strong>Entities’ true names</strong> a summoner can find
+and commit to memory. You can use the same instructional scroll to
+create an entire cult. However, as only 99 entities exist in Creation,
+most Summoners guard their knowledge jealously to avoid sharing
+power.</p>
+<p>Entities are not angels nor demons nor elementals, according to the
+Summoners. Any similarities are purely coincidental, just as both silver
+and steel can be polished to the same hue.</p>
+<p><strong>B: Powerful Hold.</strong> Chose one entity you know how to
+summon. Instead of [sum] hours, the entity is summoned for [sum]x2
+hours. Whenever you gain a level, you may change which entity this
+ability applies to.</p>
+<p><strong>C: Soul Vision.</strong> You can see the souls of living
+creatures. This allows you to guess the approximate location of
+invisible creatures. You can also immediately tell if a person is
+possessed, undead, or a spellcaster. The price for this gift is your
+connection to others. You permanently lose 1d6 Wisdom (as the constant
+scrutiny of souls warps your mind) or 1d6 Charisma (as you become
+callous and jaded).</p>
+<p><strong>D: Master Summoner.</strong> Roll for 2 additional Entities.
+Alternatively, name an Entity you already control. For as long as you
+live, the Entity that you name will always remain with you. If [sum] or
+[dice] are required, use 2d6. This does not deplete your SD or cause
+Mishaps. You do not need to roll to summon it.</p>
+<p><strong>SUMMONER MISHAPS</strong> 1. Summon Dice only return to your
+pool on a 1-2 for the next 24hrs 2. Take 1d6 damage 3. Mute and Blind
+1d6 rounds 4. Agony 1d6 rounds 5. Summon has a 1-in-6 chance of
+vanishing each hour after being summoned 6. Summon is not under your
+control. Will pursue its own agenda for the duration of the summon. May
+take on a different form.</p>
+<p><strong>SUMMONER DOOMS</strong> 1. Vanish for 1d6 hours to a strange
+world of blinding light and geometric shapes made of clay. Perform
+strange acts under the light of a thousand stars. 2. Vanish for 3d6
+hours, as above. Return with 0 HP. 3. Vanish permanently.</p>
 </div>
 <div id="swordcaster" class="section level2">
 <h2><strong>SWORDCASTER</strong></h2>
