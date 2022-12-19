@@ -1556,9 +1556,6 @@ Rats on Sticks</a>.</p>
 <h2><strong>ASSASSIN</strong></h2>
 <p><strong>Starting equipment:</strong> 3 throwing knives, disguise kit,
 vial of poison, contract for assassination</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor,
-daggers, shortswords, rapiers, bows, crossbows, slings, clubs,
-whips.</p>
 <p><strong>A: Cold Read, Assassinate</strong></p>
 <p><strong>B: Poison, Opportunist</strong></p>
 <p><strong>C: Bet My Life, Paralyzing Poison, +1 To-Hit</strong></p>
@@ -1572,15 +1569,15 @@ target’s that you know, gain +1 damage during the first round, up to
 +5.</p>
 <p><strong>B: Poison.</strong> Using common kitchen ingredients, you can
 create a single-use vial of poison that deals 1d6 damage applied to a
-weapon (main attack needs to penetrate AV) or in a spiked food or drink.
-3 vials/slot, can’t stack damage.</p>
-<p><strong>B: Opportunist.</strong> Any time you attack from behind,
-while hidden, or from above, you gain <strong>Advantage on your
-attack</strong>.</p>
+weapon or in a spiked food or drink. 3 vials/slot, can’t stack
+damage.</p>
+<p><strong>B: Opportunist.</strong> Any time you attack with a distinct
+advantage, such as from behind, while hidden, or from above, you deal an
+additional 1d6 damage. This applies to attacks made while grappling.</p>
 <p><strong>C: Paralyzing Poison.</strong> Using 20 gp of ingredients
 purchased from criminal contacts, you can create paralyzing poison,
 which paralyzes targets for 1d6 minutes on a failed <strong>Save vs
-STR</strong>. Strong creatures might get new saves every minute or
+CON</strong>. Strong creatures might get new saves every minute or
 round.</p>
 <p><strong>C: Bet my life.</strong> Non-magical poisons that you have
 added to food or drink, or your weapon, will not affect you unless you
@@ -1595,8 +1592,6 @@ next turn.</p>
 <h2><strong>ALCHEMIST</strong></h2>
 <p><strong>Starting equipment:</strong> Thick leather gloves, dagger,
 portable mini lab (1 slot), ingredients (see below), lots of vials.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor,
-daggers, slings, clubs, staffs, crossbows.</p>
 <p><strong>A: Alchemy, Stabilize, Alchemical tricks</strong></p>
 <p><strong>B: Scrounge, Reclamation</strong></p>
 <p><strong>C: Potion Maker, Precise Measurements, +1 To-Hit</strong></p>
@@ -1945,17 +1940,18 @@ been long lost…</p></li>
 <h2><strong>BARBARIAN</strong></h2>
 <p><strong>Starting Equipment</strong>: heavy weapon, light armor, beast
 mount.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor and
-shields, all weapons.</p>
-<p><strong>A: Rage, Weird Herbs, +2 HP</strong></p>
-<p><strong>B: Danger Sense, Feat of Strength , +2 HP</strong></p>
-<p><strong>C: Will of Steel, Die Hard, +2 HP</strong></p>
-<p><strong>D: Tough, Extra Attack, +2 HP</strong></p>
+<p><strong>A: Rage, +2 HP</strong></p>
+<p><strong>B: Danger Sense, Weird Herbs, +2 HP, +1 To-Hit</strong></p>
+<p><strong>C: Feat of Strength, Die Hard, +2 HP</strong></p>
+<p><strong>D: Tough, Extra Attack, +2 HP, +1 To-Hit</strong></p>
+<p>You gain +2 HP for each Barbarian template you possess. You cannot
+wear heavy armor.</p>
 <p><strong>A: Rage.</strong> You can choose to enter a rage at the start
 of your turn, or in response to taking damage. While in a rage, you have
-+2 to attack and you are immune to pain and fear. You might froth, or
-stare in battle-focus, or merely let a facade drop and give in to your
-ancient urges, brutal warrior training, or religious fanaticism.</p>
++1 to attack, all your melee attacks inflict +2 damage, and you are
+immune to pain and fear. You might froth, or stare in battle-focus, or
+merely let a facade drop and give in to your ancient urges, brutal
+warrior training, or religious fanaticism.</p>
 <p>While raging, you cannot do anything defensive, curative, or tactical
 with your allies. All you can do is attempt to kill things. Spellcasting
 is not impossible, but all your spells must be damaging spells, which
@@ -1965,11 +1961,16 @@ Mishaps and Dooms may be more severe.</p>
 drive off all enemies. If one of your allies has injured you this fight,
 they count as an enemy.</p>
 <p>While raging, you ignore any effects of <strong>Fatigue</strong>.</p>
-<p>You can make a <strong>PER save</strong> at the start of your turn as
+<p>You can make a <strong>WIS save</strong> at the start of your turn as
 a free action to end the Rage.</p>
 <p>Once your Rage ends, you gain 1 level of
 <strong>Fatigue</strong>.</p>
-<p><strong>A: Weird Herbs.</strong> You can consume a special ration to
+<p><strong>B: Danger Sense.</strong> If you are surprised, you have a
+3-in-6 chance to act on the surprise round anyway. If you encounter a
+creature no one in the group has seen before, you can make an INT save
+to remember a weakness or detail about them, provided the creature is
+not unique.</p>
+<p><strong>B: Weird Herbs.</strong> You can consume a special ration to
 regain 25% of your total HP. This takes 1 round. One use costs 5gp and
 can be purchased in any trading city. 3 “doses” fit in a single
 inventory slot. You don’t share, and your companions are in no hurry to
@@ -1979,23 +1980,24 @@ after eating the herbs. If reduced to 0 HP and an ally waves the herbs
 under you nose, you can make a <strong>CON Save</strong> to wake up with
 1HP and do not gain a Scar. You may play a theme tune (or a leitmotif,
 if you’re classy).</p>
-<p><strong>B: Danger Sense.</strong> If you are surprised, you have a
-3-in-6 chance to act on the surprise round anyway. If you encounter a
-creature no one in the group has seen before, you can make an WIT save
-to remember a weakness or detail about them, provided the creature is
-not unique.</p>
-<p><strong>B: Feat of Strength.</strong> Once per day as a free action,
-you have advantage on STR saves. Can also be used in combat (advantage
-to-hit).</p>
-<p><strong>C: Will of Steel.</strong> You gain
-<strong>Advantage</strong> on any test to resist fear or mind affecting
-magic.</p>
+<p><strong>C: Feat of Strength.</strong> Once per combat as a free
+action, you have advantage on STR saves for 1 round. Can also be used in
+combat (advantage to-hit, +4 damage).</p>
 <p><strong>C: Die Hard.</strong> Once per day when you are reduced to 0
-HP or below, you automatically pass your STR save to stay conscious and
-do not receive a <strong>Wound</strong>.</p>
-<p><strong>D: Tough.</strong> Increase your AV by 1 (stacks with light
-armor. You gain a +2 to Save vs mind-altering spells and fear
+HP or below, you stay on your feet with 1 HP. After [level] rounds you
+drop to 0 HP until you can get a <strong>Good Night’s Rest</strong>.
+Roll on the Scars Table.</p>
+<p><strong>D: Tough.</strong> Reduce all incoming damage by 2 points but
+never below 1. You gain a +2 to Save vs mind-altering spells and fear
 effects.</p>
+<p><strong>NOTES ON THE BARBARIAN</strong> Fighters are all about damage
+output. Barbarians soak damage instead. They have high HP and the unique
+ability to heal in combat.</p>
+<p>Barbarians don’t need to be half-naked fur wearing brutes. If your
+game is set in a world modeled on 13th Century China, they might be a
+Christian knight from France. Barbarians are just outsiders. People from
+Foreign Parts; and folks Around Here are laughably ignorant of their
+culture.</p>
 <table>
 <colgroup>
 <col width="30%" />
@@ -2104,23 +2106,21 @@ feed, or corral these chickens.</td>
 <h2><strong>BARD</strong></h2>
 <p><strong>Starting Equipment</strong>: gaudy clothing, musical
 instrument, d6 gold, an empty book</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-shortsword, rapier, longsword, staff, club, crossbow, bow, sling.</p>
 <p><strong>A: Gossip, A Bard Knows Things</strong></p>
 <p><strong>B: Inspire, Storyteller</strong></p>
 <p><strong>C: Bardic Immunity, Relax, +1 To-Hit</strong></p>
 <p><strong>D: Tale of Monsters</strong></p>
 <p><strong>A: Gossip</strong> When you sing a song (or tell a tale)
 about something in a public place, everyone in the area knows about it
-within one week. When you talk to someone, <strong>save vs PER</strong>
-to see if they believe it. If your song was extra good, or if the person
-is especially gullible/savvy, you may have advantage/disadvantage or
-skip the roll entirely.</p>
+within one week. When you talk to someone, <strong>save vs
+Charisma</strong> to see if they believe it. If your song was extra
+good, or if the person is especially gullible/savvy, you may have
+advantage/disadvantage or skip the roll entirely.</p>
 <p><strong>A: A Bard Knows Things.</strong> When you encounter a new
 location, npc, monster, or treasure that could possibly have been
 written about somewhere, you know three fun facts about it.</p>
-<p><strong>B: Inspire.</strong> Before another player rolls, use a
-reaction to play a song for them (or give them some words of
+<p><strong>B: Inspire.</strong> Before another player rolls, use your
+action to play a song for them (or give them some words of
 encouragement), which gives them advantage (roll twice, use best) on
 their roll. Uses per day equal to your number of Bard templates.</p>
 <p><strong>B: Storyteller.</strong> Once per session you can tell a
@@ -2145,8 +2145,6 @@ immediately.</p>
 <h2><strong>BEASTMASTER</strong></h2>
 <p><strong>Starting Equipment</strong>: Razor Boomerang, light armor,
 spice pouch</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor and
-shields, all weapons.</p>
 <p><strong>A: Beast Companion, Beast-Fang Boomerang, +1 BD, +1 HP
 </strong></p>
 <p><strong>B: Feline Reflexes, +1 BD, +1 HP</strong></p>
@@ -2165,9 +2163,9 @@ dangerous animals. Beast companions cannot fly.</p>
 <p><strong>A: Beast-Fang Boomerang.</strong> This boomerang has a range
 of 50ft and does 1d6+STR damage before returning to your hand. People
 without this ability can still throw boomerangs, but the boomerang does
-not return.</p>
-<p>The Beast-Fang can be wielded in melee combat like a hand axe and has
-the same maneuver and critical effect traits.</p>
+not return and does not benefit from the STR bonus.</p>
+<p>The Beast-Fang can be wielded in melee combat like a dagger or hand
+axe.</p>
 <p>If a boomerang doesn’t suit your style, you can reflavor the
 weapon.</p>
 <p><strong>B: Feline Reflexes.</strong> You have advantage on
@@ -2205,10 +2203,10 @@ hand.</p>
 is remains unknown. Scholars that ask too many questions have been known
 to lose their heads to razor boomerangs.</p>
 <p>BFB have the same 5+ [5HP X number of Beastmaster templates], +1
-attack bonus per Beastmaster template, and AV equal to the number of
-Beastmaster templates -1 with a minimum of 1. For purposes of saves,
-assume that their physical Abilities are 2 higher than their
-Beastmaster’s, and their mental Abilities are 2 lower.</p>
+attack bonus per Beastmaster template, and AC 11 +[number of Beastmaster
+templates]. For purposes of saves, assume that their physical Abilities
+are 2 higher than their Beastmaster’s, and their mental Abilities are 2
+lower.</p>
 <p>For every Beastmaster template you possess you gain +1 Beast Die (BD,
 also known as Meowgic Dice). They function in the same way as Magic
 Dice.</p>
@@ -2265,35 +2263,35 @@ been commanded to accomplish.</p>
 <h2><strong>CAPTAIN</strong></h2>
 <p><strong>Starting Equipment:</strong> Medium armor, longsword,
 officer’s helmet.</p>
-<p><strong>Weapon and armor proficiencies</strong>: All armor and
-shields, all weapons.</p>
 <p><strong>A: Notches, Command, +2 HP</strong></p>
-<p><strong>B: Parrying Expert, Rallying Cry, +1 HP</strong></p>
+<p><strong>B: Parry, Rallying Cry, +1 HP, +1 To-Hit</strong></p>
 <p><strong>C: Riposte, Mark Foe, +1 HP</strong></p>
-<p><strong>D: Leader of Men, Call to Arms, +1 HP</strong></p>
-<p><strong>A: Notches.</strong> When you attain a total of 10 and 20
-kills with a weapon type (such as 10 kills with a dagger), you unlock a
-new ability for that weapon, chosen from the list below. Keep track of
-your kills and special abilities on the back of your character sheet.
-The GM decides what counts as a kill.</p>
+<p><strong>D: Leader of Men, Call to Arms, +1 HP, +1 To-Hit</strong></p>
+<p><strong>A: Notches.</strong> Each time you attain a total of 10, 20,
+30, and 50 kills with a weapon type (such as 10 kills with a dagger),
+you unlock a new ability for that weapon, chosen from the list below.
+Keep track of your kills and special abilities on the back of your
+character sheet. The GM decides what counts as a kill.</p>
 <ul>
 <li><p>+1 Damage</p></li>
-<li><p>Special ability (negotiated with GM, check maneuvers).</p></li>
+<li><p>Expanded critical range (+1)</p></li>
+<li><p>Special ability (negotiated with GM, one per weapon).</p></li>
 </ul>
 <p>Examples: ability to draw the weapon from any slot, wield a
 two-handed weapon in one hand, gain a bonus to use the weapon as a tool,
 etc.</p>
+<p>For example, a Fighter with 50 flail kills (4 notches) could have +1
+damage, a critical range of (18-20), and the ability to stun an opponent
+for one round on a critical hit.</p>
 <p><strong>A: Command.</strong> You can use your action to give one of
 your allies the opportunity to strike an enemy during your turn.</p>
-<p><strong>B: Parrying Expert.</strong> You can use the
-<strong>Parry</strong> maneuver with any weapon and gain
-<strong>Advantage</strong> on the roll.</p>
+<p><strong>B: Parry.</strong> Once per combat, force an opponent to
+reroll their attack against you.</p>
 <p><strong>B: Rallying Cry.</strong> Once per day, you can use an action
 to rally one of your allies (they need to be able to hear you). They
 regain 1d8+level HP.</p>
 <p><strong>C: Riposte.</strong> Once per round when you are struck by an
-enemy, make an immediate attack in return. Costs 1
-<strong>Fatigue</strong>.</p>
+enemy, make an immediate attack in return.</p>
 <p><strong>C: Mark Foe.</strong> You can mark an enemy as a target for
 your allies. Until your next turn, all attacks on the marked foe have
 <strong>Advantage</strong>.</p>
@@ -2310,18 +2308,16 @@ roll <strong>Initiative</strong> with <strong>Advantage</strong>.</p>
 <p><strong>Starting Equipment:</strong> chef’s tools (knives, ladle,
 sieve, etc., 1 slot bundle), spices (0 slots, 5 uses), pots &amp; pans
 (2 slots).</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light and medium
-armor and shields, daggers, shortsword, hand axe, club/hammer, staff,
-spear, sword, mace, battle axe, flail, crossbow, bow, sling.</p>
 <p><strong>A: Fillet, Foraging, Monster Chef</strong></p>
 <p><strong>B: Seasoned Wok, Spices</strong></p>
-<p><strong>C: Magical Harvest, Make Delicious</strong></p>
+<p><strong>C: Magical Harvest, Make Delicious, +1 To-Hit</strong></p>
 <p><strong>D: Feast, Stewpot Familiar</strong></p>
 <p>You gain +1 save vs poison for every Chef template that you
 possess.</p>
 <p><strong>A: Fillet.</strong> You know how to carve up a piece of meat.
 When attacking with a chef’s knife (1d6 damage, 1/2 slots, 1 hand, 15
-gp, 15ft(thrown), not concealable, otherwise like a dagger).</p>
+gp, 15ft(thrown), not concealable, Bleed), you gain an extra +1 to
+damage.</p>
 <p><strong>A: Foraging.</strong> It’s not all owlbear stew and giant
 centipede tar-tar. Spend 1 Turn to find enough edible plants, mushrooms,
 lichens, fruit, and roots to feed 1d4+4 people a single meal.
@@ -2331,15 +2327,15 @@ ingredient.</p>
 preserve the flora and fauna of the dungeon. Create an additional 1d6
 rations from any monsters that you butcher. Rations last an additional
 day.</p>
-<p>Make an <strong>WIT Save</strong> to determine the medicinal and
+<p>Make an <strong>INT Save</strong> to determine the medicinal and
 culinary qualities of unfamiliar ingredients, potions, and similar
 concoctions.</p>
-<p>The <strong>WIT Save</strong> also allows you to tell tell if a
+<p>The <strong>INT Save</strong> also allows you to tell tell if a
 ingredient will be outright poisonous to eat. Keeping a recipe book of
 these discoveries negates the need for an <strong>INT Save</strong> in
 the future, but only if the player keeps notes.</p>
 <p><strong>B: Seasoned Wok.</strong> Your assortment of pots, pans, and
-platters, function as armor (as Chain Mail). Increase this bonus by +1
+platters, function as armor (as Ring Mail). Increase this bonus by +1
 for every additional Chef template that you possess. Does not stack with
 actual armor.</p>
 <p><strong>B: Spices:</strong> You know which spices pair best with
@@ -2353,7 +2349,7 @@ destroy the valuable component.</p>
 <p><em>R: Touch, T: creature, D: 1 Turn</em></p>
 <p>Target creature becomes delicious and irresistible to those around
 them. The smell radiates 20’ in calm air, but can spread via wind or
-leave a trail. Pass a <strong>PER Save</strong> or be compelled to
+leave a trail. Pass a <strong>WIS Save</strong> or be compelled to
 attack the target.</p>
 <p>Intelligent creatures make the save with advantage. Unintelligent
 creatures make the save with disadvantage.</p>
@@ -2384,14 +2380,14 @@ inflicting 1d8 damage in a 5’ wide, 15’ long scalding yet delicious
 wave. <strong>DEX Save</strong> to dodge out of the way. If full, it can
 do this a number of times equal to your level.</p>
 <p>It can also ram a target, inflicting 1d6 damage. Apply your
-<strong>WIT bonus</strong> to attack rolls. Medium sized or small
+<strong>INT bonus</strong> to attack rolls. Medium sized or small
 creatures must <strong>save vs Strength</strong> or be tipped into the
 pot. If empty this I merely inconvenient. If full, the victim takes 1d8
 damage until dead or it can make a successful <strong>STR Save</strong>.
 Victims so boiled are rendered down into a delicious broth.</p>
 <p>It takes your action to give such a command and you roll to-hit using
 your <strong>INT bonus</strong>.</p>
-<p>Stewpot familiars have armor AV3 and twice as many HP as their Chef.
+<p>Stewpot familiars have armor AC16 and twice as many HP as their Chef.
 If a stewpot familiar is reduced to 0HP it explodes for 3d6 damage in a
 10’ radius, <strong>DEX Save</strong> for half. If the gourmand
 survives, they must retire in shame for allowing such harm to befall a
@@ -2609,43 +2605,53 @@ of becoming a Ghoul (party members) or Elder Ghoul (you).</p>
 <h2><strong>FIGHTER</strong></h2>
 <p><strong>Starting Equipment:</strong> light armor, bow, 20 arrows, and
 a melee weapon of choice.</p>
-<p><strong>Weapon and armor proficiencies</strong>: All armor and
-shields, all weapons.</p>
 <p><strong>A: Grit, Notches, +3 HP</strong></p>
-<p><strong>B: Campaigner, Savvy Fighter, +1 HP</strong></p>
-<p><strong>C: Riposte, Parrying Expert, +1 HP</strong></p>
-<p><strong>D: Savage Strike, Girded Loins, Extra Attack, +1
-HP</strong></p>
+<p><strong>B: Campaigner, Savvy Fighter, +1 HP, +1 To-Hit</strong></p>
+<p><strong>C: Riposte, Parry, +1 HP</strong></p>
+<p><strong>D: Savage Strike, Girded Loins, Extra Attack, +1 HP, +1
+To-Hit</strong></p>
 <p><strong>A: Grit.</strong> When <strong>pushing yourself</strong> in
 combat, you can ignore the first instance of <strong>Fatigue</strong> in
 that fight.</p>
-<p><strong>A: Notches.</strong> When you attain a total of 10 and 20
-kills with a weapon type (such as 10 kills with a dagger), you unlock a
-new ability for that weapon, chosen from the list below. Keep track of
-your kills and special abilities on the back of your character sheet.
-The GM decides what counts as a kill.</p>
+<p><strong>A: Notches.</strong> Each time you attain a total of 10, 20,
+30, and 50 kills with a weapon type (such as 10 kills with a dagger),
+you unlock a new ability for that weapon, chosen from the list below.
+Keep track of your kills and special abilities on the back of your
+character sheet. The GM decides what counts as a kill.</p>
 <ul>
 <li><p>+1 Damage</p></li>
-<li><p>Special ability (negotiated with GM, one per weapon, see
-maneuvers).</p></li>
+<li><p>Expanded critical range (+1)</p></li>
+<li><p>Special ability (negotiated with GM, one per weapon).</p></li>
 </ul>
 <p>Examples: ability to draw the weapon from any slot, wield a
 two-handed weapon in one hand, gain a bonus to use the weapon as a tool,
 etc.</p>
+<p>For example, a Fighter with 50 flail kills (4 notches) could have +1
+damage, a critical range of (18-20), and the ability to stun an opponent
+for one round on a critical hit.</p>
 <p><strong>B: Campaigner.</strong> Armor occupies 2 fewer item slots in
 your inventory.</p>
-<p><strong>B: Savvy Fighter.</strong> You gain advantage on Saves
-involved in any Combat Maneuver.</p>
-<p><strong>C: Parrying Expert.</strong> You can use the
-<strong>Parry</strong> maneuver with any weapon and gain
-<strong>Advantage</strong> on the roll.</p>
+<p><strong>B: Savvy Fighter.</strong> You gain +2 on all Combat Maneuver
+rolls.</p>
+<p>On a critical success you may also make a free attack against the
+target of your combat maneuver or another enemy within range of your
+weapon.</p>
+<p>You cannot move to use this free attack against a nearby enemy, but
+if you have a dagger or hand-axe in a quick-draw item slot you can use
+it to make a ranged attack against anyone in range.</p>
+<p>You can also come up with your own Combat maneuvers (with GM
+approval). A maneuver typically requires a successful attack roll or
+Save.</p>
+<p><strong>C: Parry.</strong> Once per combat, force an opponent to
+reroll their attack against you.</p>
 <p><strong>C: Riposte.</strong> Once per round when you are struck by an
-enemy, make an immediate attack in return. Costs 1
-<strong>Fatigue</strong>.</p>
-<p><strong>D: Savage Strikes.</strong> Your strikes always hurt. If your
-attack causes 0 damage after AV reduction, you cause damage equal to
-your STR mod rounded up. Targets with HD/Levels two levels above the PC
-are unaffected by this ability.</p>
+enemy, make an immediate attack in return.</p>
+<p><strong>D: Savage Strikes.</strong> You only deal 0 damage on a
+critical miss. On a regular miss, you hit your target with a
+<strong>Glance</strong>. A <strong>Glance</strong> causes <strong>STR
+mod</strong> points of damage. You should add any flat bonuses from
+class abilities or magic items. Targets with HD/Levels two levels above
+the PC are unaffected by this ability.</p>
 <p><strong>D: Girded Loins.</strong> Once per combat, reduce the damage
 from an attack made against you by half. You have advantage to
 <strong>save vs fear</strong>. Hirelings get a +2 to morale and may
@@ -2813,51 +2819,43 @@ for freedom lead you into the wider world.</td>
 <div id="hunter" class="section level2">
 <h2><strong>HUNTER</strong></h2>
 <p><strong>Starting Equipment:</strong> bow, 40 arrows, dagger, light
-armor.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light and medium
-armor and shields, daggers, shortsword, club/hammer, spear, longsword,
-handle, battle axe, whip, staff, sling, bow, crossbow.</p>
+armor. You cannot wear heavy armor.</p>
 <p><strong>A: Rangefinder, Wilderness Sense, +1 HP</strong></p>
-<p><strong>B: Crippling Shot, Quick Shot, +1 HP</strong></p>
-<p><strong>C: Traps, Monster Chef, Monster Slayer, +1 HP</strong></p>
-<p><strong>D: Impossible Shot, Vanish, +1 HP</strong></p>
-<p><strong>A: Rangefinder.</strong> If your ranged attack causes no
-damage, your next shot is made with advantage.</p>
-<p><strong>A: Wilderness Sense.</strong> Advantage on <strong>WIT
+<p><strong>B: Monster Chef, Quick Shot, +1 HP, +1 To-Hit</strong></p>
+<p><strong>C: Traps, Monster Slayer, +1 HP</strong></p>
+<p><strong>D: Impossible Shot, Vanish, +1 HP, +1 To-Hit</strong></p>
+<p><strong>A: Rangefinder.</strong> If you miss with a ranged attack,
+your next shot is made with advantage.</p>
+<p><strong>A: Wilderness Sense.</strong> Advantage on <strong>WIS
 saves</strong> to forage, stalk, and navigate in wilderness areas. After
 the Referee gives you the omen for an encounter, you can choose to
 follow the trail/clues.</p>
 <p>You have a 50% chance of encountering the monster or its lair. There
 is a 50% chance the lair is empty. Lairs usually contain treasure.</p>
-<p><strong>B: Crippling Shot.</strong> If you hit an enemy with a ranged
-weapon, you can choose to deal minimum damage instead of rolling. Their
-movement is reduced by 1⁄2 until the end of your next turn and their
-next attack has <strong>Disadvantage</strong>.</p>
+<p><strong>B: Monster Chef.</strong> You’ve learned to prepare and
+preserve monsters that you’ve hunted before (you must keep track of
+this). Rations created this way provide an additional 1d4 HP.</p>
+<p>Make an <strong>INT Save</strong> to tell if a new monster will be
+outright poisonous to eat. You can also make an educated guess about the
+extra effects of consuming magical creatures.</p>
 <p><strong>B: Quick Shot.</strong> If you do not move on your turn you
-may make the <strong>Volley</strong> maneuver without incurring
-<strong>Fatigue</strong>.</p>
+may make an additional attack with a ranged weapon. Your first attack
+must have been made with the same weapon.</p>
 <p>If using a crossbow or other weapon requiring 1 or more rounds to
 reload, take only one shot, but ignore the reload time.</p>
 <p><strong>C: Traps.</strong> You can craft and set traps. It takes one
 Turn to craft a trap. Traps can be set immediately or carried with you,
 (taking up 1 Inventory Slot). Enemies that walk into your trap must make
 a <strong>DEX save</strong> with disadvantage or suffer its effects.</p>
-<p><strong>C: Monster Chef.</strong> You’ve learned to prepare and
-preserve monsters that you’ve hunted before (you must keep track of
-this). Rations created this way provide an additional 1d4 HP.</p>
-<p>Make a <strong>WIT Save</strong> to tell if a new monster will be
-outright poisonous to eat. You can also make an educated guess about the
-extra effects of consuming magical creatures.</p>
 <p><strong>C: Monster Slayer.</strong> Once per day, you can cause one
 of your physical attacks to deal +X damage, where X is equal to the HD
 of the highest level monster your party has ever slain (you must keep
 track of this). If you miss, this ability is not expended.</p>
 <p><strong>D: Impossible Shot.</strong> Once per combat, you can make an
-impossible shot with a ranged weapon. The attack can target any
-creature, provided the target is within 2x the weapon’s listed range and
-there is a path from your to the target. The attack can bounce around
-corners, cut a coin in half, or part a single hair on a target’s head.
-Roll the damage with <strong>Advantage</strong>.</p>
+impossible shot with a ranged weapon. The attack automatically hits,
+provided the target is within 2x the weapon’s listed range. The attack
+can bounce around corners, cut a coin in half, or part a single hair on
+a target’s head.</p>
 <p><strong>D: Vanish.</strong> If you are in dense forest, hills, caves,
 or other terrain with abundant line-of- sight blocking features, you can
 choose to vanish. While vanished you cannot affect the world or be
@@ -3006,13 +3004,11 @@ escape with you. Gain a small but vicious dog.</td>
 <h2><strong>KNIGHT</strong></h2>
 <p><strong>Starting Equipment:</strong> chainmail, shield, sword, horse,
 10 sp</p>
-<p><strong>Weapon and armor proficiencies</strong>: All armor and
-shields, all weapons.</p>
-<p><strong>A: Challenge, Parrying Expert +2HP</strong></p>
-<p><strong>B: Bodyguard, Chivalry +1HP</strong></p>
-<p><strong>C: Cleaver, Squire, +1HP</strong></p>
-<p><strong>D: Aura of Courage, Dragon Slayer, Extra Attack,
-+1HP</strong></p>
+<p><strong>A: Challenge, Parry +2HP</strong></p>
+<p><strong>B: Bodyguard, Chivalry +1HP, +1 To-Hit</strong></p>
+<p><strong>C: Cleave, Squire, +1HP</strong></p>
+<p><strong>D: Aura of Courage, Dragon Slayer, Extra Attack, +1HP, +1
+To-Hit</strong></p>
 <p>You gain +1 to <strong>Save vs Fear</strong> for each Knight template
 you possess.</p>
 <p><strong>A: Challenge.</strong> This ability only works on creatures
@@ -3023,12 +3019,11 @@ that you and the other party must agree upon the time, the place, the
 weapons, the victory condition, and the stakes. Leaders will usually
 send out a champion to fight in their stead (if applicable). In combat,
 you can challenge one creature each turn by yelling at it as a free
-action. The creature must <strong>Save vs PER</strong>. If they fail,
+action. The creature must <strong>Save vs WIS</strong>. If they fail,
 they will attack you. This ability cannot force an opponent to make
 major tactical errors or leap off cliffs.</p>
-<p><strong>A: Parrying Expert.</strong> You can use the
-<strong>Parry</strong> maneuver with any weapon and gain
-<strong>Advantage</strong> on the roll.</p>
+<p><strong>A: Parry.</strong> Once per combat, force an opponent to
+reroll their attack against you.</p>
 <p><strong>B: Bodyguard</strong> If an adjacent ally would take damage
 from a physical attack, you can choose to take the damage for them. This
 ability has a 4-in-6 chance of succeeding.</p>
@@ -3037,13 +3032,13 @@ This can be used to invoke guest rights, the favorable treatment by
 nobles and their attendants, or the calling of duels. In turn, you also
 have to live by the Code of Chivalry. You cannot turn down requests to
 help the helpless.</p>
-<p><strong>C: Cleaver.</strong> When you reduce a creature to 0HP with
-an attack, make another attack with the same weapon against a target
-within range of you. You can cleave a number of targets equal to your
-level in a single round.</p>
+<p><strong>C: Cleave.</strong> When you reduce a creature to 0HP with an
+attack, make another attack with the same weapon against a target within
+range of you. You can cleave a number of targets equal to your level in
+a single round.</p>
 <p><strong>C: Squire.</strong> You gain a loyal squire. Use simple
 hireling statistics but they are willing to fight and receive the PC’s
-<strong>PER mod</strong> to their morale saves. The PC has to pay for
+<strong>CHA mod</strong> to their morale saves. The PC has to pay for
 their gear and rations.</p>
 <p><strong>D: Aura of Courage.</strong> Adjacent allies can use your
 Save vs Fear in place of their own. This ability has no effect if you
@@ -3063,13 +3058,11 @@ need—if it weren’t for these damned officers…</p>
 leather), an iron ringsword (medium), a snapchance and powderhorn, good
 pair of boots, excellent backpack, one other piece of kit of your
 choice.</p>
-<p><strong>Weapon and armor proficiencies</strong>: All armor and
-shields, all weapons.</p>
 <p><strong>A: Tall Tales, Nonplussed, +1 HP</strong></p>
-<p><strong>B: Respect, Notches, +1 HP</strong></p>
+<p><strong>B: Respect, Notches, +1 HP, +1 To-Hit</strong></p>
 <p><strong>C: Old Friends, Savvy Fighter, +1 HP</strong></p>
-<p><strong>D: Nose for Trouble, Riposte, Extra Attack, +1
-HP</strong></p>
+<p><strong>D: Nose for Trouble, Riposte, Extra Attack, +1 HP, +1
+To-Hit</strong></p>
 <p>For every template you have in this class you gain +1 inventory slot
 and +1 HP. If you have at least one template of Veteran, you cannot
 fumble with mundane weapons and can wear light and medium armor.</p>
@@ -3229,28 +3222,40 @@ Peasant:</p>
 2-5: A horsewhipping, followed by a second and more thorough horsewhipping
 
 6: Pistols at dawn.</code></pre>
-<p><strong>B: Notches.</strong> When you attain a total of 10 and 20
-kills with a weapon type (such as 10 kills with a dagger), you unlock a
-new ability for that weapon, chosen from the list below. Keep track of
-your kills and special abilities on the back of your character sheet.
-The GM decides what counts as a kill.</p>
+<p><strong>B: Notches.</strong> Each time you attain a total of 10, 20,
+30, and 50 kills with a weapon type (such as 10 kills with a dagger),
+you unlock a new ability for that weapon, chosen from the list below.
+Keep track of your kills and special abilities on the back of your
+character sheet. The GM decides what counts as a kill.</p>
 <ul>
 <li><p>+1 Damage</p></li>
+<li><p>Expanded critical range (+1)</p></li>
 <li><p>Special ability (negotiated with GM, one per weapon).</p></li>
 </ul>
 <p>Examples: ability to draw the weapon from any slot, wield a
 two-handed weapon in one hand, gain a bonus to use the weapon as a tool,
 etc.</p>
-<p><strong>C: Savvy Fighter.</strong> You gain advantage on Saves
-involved in any Combat Maneuver.</p>
+<p>For example, a Fighter with 50 flail kills (4 notches) could have +1
+damage, a critical range of (18-20), and the ability to stun an opponent
+for one round on a critical hit.</p>
+<p><strong>C: Savvy Fighter.</strong> You gain +2 on all Combat Maneuver
+rolls (page 11).</p>
+<p>On a critical success you may also make a free attack against the
+target of your combat maneuver or another enemy within range of your
+weapon.</p>
+<p>You cannot move to use this free attack against a nearby enemy, but
+if you have a dagger or hand-axe in a quick-draw item slot you can use
+it to make a ranged attack against anyone in range.</p>
+<p>You can also come up with your own Combat maneuvers (with GM
+approval). A maneuver typically requires a successful attack roll or
+Save.</p>
 <p><strong>C: Old Friends.</strong> They found you at last; the ones
 you’ve been trying to avoid for years. They might owe you a debt, but
 they are probably here to collect instead. This is someone who featured
 in one of your tall tales; maybe a survivor of a siege, or a hero, or an
 angry husband. Or a giant. Or a goat. Or a dead wizard.</p>
 <p><strong>D: Riposte.</strong> Once per round when you are struck by an
-enemy, make an immediate attack in return. Costs 1
-<strong>Fatigue</strong>.</p>
+enemy, make an immediate attack in return.</p>
 <p><strong>D: Nose for Trouble.</strong> Your paranoia has saved your
 life many times, and if you attend to it closely it will save you many
 times more. You always go first in combat. If you are surprised, you
@@ -3266,11 +3271,9 @@ you will still be carrying the 1d4.</p>
 <p><strong>Starting Equipment:</strong> Three flasks of alcohol, two
 fashion items, 1d6-3 gp, 1d4 Random Items, a family heirloom worth 10
 gp.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-shortsword, club, rapier, longsword, crossbow, whip, staff.</p>
 <p><strong>A: Pick 1 Talent, Roll 1 Talent</strong></p>
 <p><strong>B: Pick 1 Talent, Roll 1 Talent, +5 ft Movement</strong></p>
-<p><strong>C: Pick 1 Talent, Roll 1 Talent</strong></p>
+<p><strong>C: Pick 1 Talent, Roll 1 Talent, +1 To-Hit</strong></p>
 <p><strong>D Pick 1 Talent, Roll 1 Talent</strong></p>
 <table>
 <colgroup>
@@ -3292,7 +3295,7 @@ priest in a temple, a servant in a large house - people will always
 assume that you are who you appear to be unless you give them a strong
 reason not to. If you take an injury which reduces you to less than half
 maximum hit points, you can attempt to ‘play dead’ by making a
-<strong>Save vs PER</strong>.</td>
+<strong>Save vs Charisma</strong>.</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -3331,11 +3334,11 @@ as a friend unless and until you give them a strong reason not to.</td>
 <tr class="even">
 <td>6</td>
 <td><strong>Duelist:</strong> All those fencing lessons paid off! You
-get +1 Attack in one on one battle with a single opponent. This bonus
-ends as soon as either of you attacks or is attacked by anyone else.
-Anyone who sees you fight a formal duel (whether to first blood or to
-the death) will regard you as a person of courage and honor unless and
-until you give them a strong reason not to.</td>
+get +1 Attack and damage in one on one battle with a single opponent.
+This bonus ends as soon as either of you attacks or is attacked by
+anyone else. Anyone who sees you fight a formal duel (whether to first
+blood or to the death) will regard you as a person of courage and honour
+unless and until you give them a strong reason not to.</td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -3351,11 +3354,11 @@ vs. INT</strong>.</td>
 <td>8</td>
 <td><strong>Fop:</strong> You have such beautiful clothes and you wear
 them so very, very well. If you are wearing something awe-inspiringly
-fashionable (takes 1 item slot) and impractical (except armor), you will
-automatically be the centre of attention wherever you go, and cannot be
-upstaged by anything short of actual disaster or attack. In combat, you
-can sacrifice your fashionable item to avert 1d8 points of damage. The
-item is destroyed in the process</td>
+fashionable (takes 1 item slot) and impractical (except armour), you
+will automatically be the centre of attention wherever you go, and
+cannot be upstaged by anything short of actual disaster or attack. In
+combat, you can sacrifice oyour fashionable item to avert 1d8 points of
+damage. The item is destroyed in the process</td>
 </tr>
 <tr class="odd">
 <td>9</td>
@@ -3380,10 +3383,11 @@ or favours you ask.</td>
 <td>11</td>
 <td><strong>Mohock:</strong> In your misspent youth you were an
 aristocratic street thug and hellraiser, terrorising the city by night.
-You gain +1 Attack with clubs and knives, and take no penalties fighting
-in poor light (not full darkness). Once, ever, you may ask a single
-favour from the Emperor of the Mohocks, a shadowy and near-mythical
-figure of great influence in aristocratic and criminal circles.</td>
+You gain +1 Attack and damage with clubs and knives, and take no
+penalties fighting in poor light (not full darkness). Once, ever, you
+may ask a single favour from the Emperor of the Mohocks, a shadowy and
+near-mythical figure of great influence in aristocratic and criminal
+circles.</td>
 </tr>
 <tr class="even">
 <td>12</td>
@@ -3418,14 +3422,14 @@ gain double XP when carousing.</td>
 </tr>
 <tr class="even">
 <td>16</td>
-<td><strong>Flashy:</strong> If you are wearing no armor, you can add
-half your <strong>PER bonus</strong> (rounded down) to your AV.</td>
+<td><strong>Flashy:</strong> If you are wearing no or light armor, you
+can add your <strong>CHA bonus</strong> to AC.</td>
 </tr>
 <tr class="odd">
 <td>17</td>
 <td><strong>Crafty:</strong> If you are fighting with a light,
 one-handed weapon (e.g., daggers, rapiers) and your other hand is free,
-gain +1 to your attack.</td>
+gain +1 to all combat maneuvers.</td>
 </tr>
 <tr class="even">
 <td>17</td>
@@ -3454,24 +3458,21 @@ withdrawal at full speed.</td>
 <div id="merchant" class="section level2">
 <h2><strong>MERCHANT</strong></h2>
 <p><strong>Starting Equipment:</strong> Iron dagger, traveling robes,
-10gp. <strong>Weapon and armor proficiencies</strong>: Light armor and
-shields, dagger, shortsword, club/hammer, rapier, longsword, mace,
-crossbow, whip, staff.</p>
+10gp.</p>
 <p><strong>A: Evaluate, Boss</strong></p>
 <p><strong>B: Flighty, Prominence</strong></p>
-<p><strong>C: Bargain, Winning Smile</strong></p>
+<p><strong>C: Bargain, Winning Smile, +1 To-Hit</strong></p>
 <p><strong>D: Forge</strong>, <strong>Guildmaster</strong></p>
-<p>You gain +1 Inventory Slot for each Merchant template you
-possess.</p>
+<p>You gain +1 Inventory Slot for each Peddler template you possess.</p>
 <p><strong>A: Evaluate</strong> You know the market value of any mundane
-item. Unique items may require an <strong>save vs WIT</strong> to
+item. Unique items may require an <strong>save vs INT</strong> to
 evaluate.</p>
 <p><strong>A: Boss.</strong> You have special command over hirelings.
 All morale/loyalty checks for your hirelings receive a bonus equal to
-your <strong>PER mod</strong>.</p>
+your <strong>CHA mod</strong>.</p>
 <p><strong>B: Flighty.</strong> If you choose not to attack in a round
-your armor counts as AV4. This only applies if you can see your
-enemies.</p>
+your armor counts as AC 17 (this excludes the <strong>Distract</strong>
+maneuver). This only applies if you can see your enemies.</p>
 <p><strong>Prominence.</strong> Once per round, you can choose to be the
 most prominent person in a group or the least prominent person in a
 group. This affects how much enemies will target you. This does not give
@@ -3485,7 +3486,7 @@ one doing the talking.</p>
 any item smaller than a horse. If the item is mundane, it will pass
 inspection for 1d6 hours. If the item is supernatural, your forgery will
 only pass inspection for 1d6 minutes.</p>
-<p><strong>D: Guildmaster.</strong> You can have <strong>3+PER
+<p><strong>D: Guildmaster.</strong> You can have <strong>3+CHA
 mod</strong> hirelings at any given time in your employ.</p>
 <p><strong>Mechanical Notes on the Merchant</strong> In combat, the
 Merchant’s main ability is to attract attention and survive damage. Two
@@ -3508,20 +3509,16 @@ or crewing an airship. It’s a grand life. A survivable, versatile
 rogue.</p>
 <p><strong>Starting Gear:</strong> Light armor, cutlass, flask of
 rum.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-shortsword, club, rapier, longsword, crossbow, bow, whip, staff, spear,
-hand axe, battle axe, flail.</p>
 <p><strong>A: Dirty Pirate, A Pirate’s Life, +1 HP</strong></p>
 <p><strong>B: Lucky, Duel, +1HP</strong></p>
-<p><strong>C: Almost Got Me, Choice Weapon +1HP</strong></p>
+<p><strong>C: Almost Got Me, Choice Weapon +1HP, +1 To-Hit</strong></p>
 <p><strong>D: Very Lucky, Charmed, +1HP</strong></p>
 <p><strong>A: Dirty Pirate.</strong> When striking from ambush, you may
-roll damage with <strong>Advantage</strong>.</p>
+deal 1d6 extra damage per Pirate template.</p>
 <p><strong>A: A Pirate’s Life.</strong> You live an extraordinarily
 reckless life. When spending gold to carouse, roll the die twice to see
 how much you spend (and also how much XP you get)</p>
-<p><strong>B: Lucky.</strong> Every day, you have at least 1 Luck
-available.</p>
+<p><strong>B: Lucky.</strong> Reroll a 1d20 once per day</p>
 <p><strong>B: Duel.</strong> Once per battle, you may lock eyes with an
 opponent and <strong>Save vs CH</strong> to goad them into a duel. Other
 hostile foes will not engage you until either you or your opponent are
@@ -3531,9 +3528,10 @@ strikes your target.</p>
 automatically escape from a situation that is restraining you that you
 could plausibly escape from. This includes manacles, pit traps, grapples
 and awkward social conversations.</p>
-<p><strong>C: Choice Weapon.</strong> Choose a weapon type (e.g.,dagger,
-sword). You gain +1 to damage with that weapon type.</p>
-<p><strong>D: Very Lucky.</strong> You have at least 2 Luck available
+<p><strong>C: Choice Weapon.</strong> Choose a weapon type (dagger,
+sword, pistol, rifle, cannon). You gain +1 to damage with that weapon
+type.</p>
+<p><strong>D: Very Lucky.</strong> You may use your Lucky ability twice
 per day. An adjacent ally can use this ability, if you could have
 plausibly assisted them.</p>
 <p><strong>D: Charmed.</strong> You may ignore a single source of damage
@@ -3543,33 +3541,42 @@ once per game session.</p>
 <h2><strong>PUGILIST</strong></h2>
 <p><strong>Starting Equipment:</strong> handwraps, simple clothing, a
 jug of liquor.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor,
-club/hammer, staff.</p>
 <p><strong>A: Jab, Corner Man, +1 HP</strong></p>
-<p><strong>B: Hand Wraps, Ground and Pound, +1 HP</strong></p>
+<p><strong>B: Hand Wraps, Ground and Pound, +1 HP, +1
+To-Hit</strong></p>
 <p><strong>C: Tough as Nails, Fundamentals, +1 HP</strong></p>
-<p><strong>D: Cut Up, What Doesn’t Kill You…, +1 HP</strong></p>
+<p><strong>D: Cut Up, What Doesn’t Kill You…, +1 HP, +1
+To-Hit</strong></p>
 <p><strong>A: Jab.</strong> Your unarmed strikes deal 1d6 +STR damage
 &amp; count as melee weapons.</p>
 <p><strong>A: Corner Man</strong> You have learned how to quickly fix up
 cuts and bruises and provide an inspiring pep talk. Each Pugilist
 template gives you one use of this ability per day. You can take an
-action to help a creature recover 1d6+PER HP (requires healer’s tools),
+action to help a creature recover 1d6+WIS HP (requires healer’s tools),
 give a creature a new attempt to shake off the
 <strong>Frightened</strong> condition, or to remove 1
 <strong>Fatigue</strong>.</p>
 <p><strong>B: Hand Wraps.</strong> You have developed your own secret
 technique of wrapping your fists for protection. While you are unarmored
-and not wielding a shield, but wearing your hand wraps, you have an AV
-equal to (STR+DEX)/2 (rounded down) up to a maximum of 4.</p>
-<p><strong>B: Ground and Pound.</strong> Whenever you attack a grappled
-or prone enemy, roll damage with <strong>Advantage</strong> and ignore 2
-points of AV.</p>
-<p><strong>C: Fundamentals.</strong> You gain <strong>Advantage</strong>
-on all <strong>unarmed</strong> Combat Maneuver rolls.</p>
-<p><strong>C: Tough as Nails.</strong> Once per day, when you are
-reduced to 0 or less HP, you automatically pass your save to stay
-conscious.</p>
+and not wielding a shield, but wearing your hand wraps, add both your
+CON and DEX Bonus to AC.</p>
+<p><strong>B: Ground and Pound.</strong> Whenever you attack a prone or
+grappled enemy, add 1d6 to your damage.</p>
+<p><strong>C: Fundamentals.</strong> You gain +2 on all
+<strong>unarmed</strong> Combat Maneuver rolls.</p>
+<p>On a critical success you may also make a free attack against the
+target of your combat maneuver or another enemy within range of your
+weapon.</p>
+<p>You cannot move to use this free attack against a nearby enemy, but
+if you have a dagger or hand-axe in a quick-draw item slot you can use
+it to make a ranged attack against anyone in range.</p>
+<p>You can also come up with your own Combat maneuvers (with GM
+approval). A maneuver typically requires a successful attack roll or
+Save.</p>
+<p><strong>C: Tough as Nails.</strong> When you are reduced to 0 or less
+HP, <strong>Save vs CON</strong> to stay conscious. Track your negative
+HP, additional damage can still kill you. Once the combat is over, you
+still receive a <strong>Scar</strong> and <strong>Fatigue</strong>.</p>
 <p><strong>D: Cut Up.</strong> You know how to celebrate. You have
 <strong>advantage</strong> on saves for <strong>Debauchery</strong>
 during <strong>Carousing</strong>. After you caroused in a settlement,
@@ -3583,16 +3590,14 @@ used within the same round.</p>
 <div id="rider" class="section level2">
 <h2><strong>RIDER</strong></h2>
 <p><strong>Starting Equipment:</strong> bow, 20 arrows, horse.</p>
-<p><strong>Weapon and armor proficiencies</strong>: All armor and
-shields, daggers, shortswords, longswords, spear/lance, battle axe,
-mace, bow.</p>
 <p><strong>A: Mounted Charge, Nomadic Lifestyle, +1 HP</strong></p>
-<p><strong>B: Milk of the Mare, Quick-Shot, +1 HP</strong></p>
+<p><strong>B: Milk of the Mare, Quick-Shot, +1 HP, +1
+To-Hit</strong></p>
 <p><strong>C: Barding, Raider, +1 HP</strong></p>
-<p><strong>D: Caracole, Padded Hoofs, +1 HP</strong></p>
-<p><strong>A: Mounted Charge.</strong> You can perform the
-<strong>Charge</strong> maneuver on your mount without incurring
-<strong>Fatigue</strong>, but you need to move 25ft.</p>
+<p><strong>D: Caracole, Padded Hoofs, +1 HP, +1 To-Hit</strong></p>
+<p><strong>A: Mounted Charge.</strong> If you move at least 25ft on your
+mount in a straight line, your melee attacks on that turn have
+<strong>Advantage</strong>.</p>
 <p><strong>A: Nomadic Lifestyle.</strong> You carry your life with you.
 Your mount gains 4 additional inventory slots compared to regular
 mounts. You also gain 1 extra quick-draw inventory slot while being
@@ -3601,13 +3606,11 @@ mounted.</p>
 and blood to produce 2 rations per day. Unless the horse is fed or
 grazed, this can only be sustained for one week. Your mount gains +5 HP
 relative to the regular version of the creature.</p>
-<p><strong>B: Rider Quick-Shot.</strong> You may make the
-<strong>Volley</strong> maneuver without incurring
-<strong>Fatigue</strong>, but your second shot has
-<strong>disadvantage</strong>.</p>
+<p><strong>B: Quick-Shot.</strong> You can fire two arrows in quick
+succession. Your second shot has <strong>disadvantage</strong>.</p>
 <p><strong>C: Barding.</strong> You can direct any damage targeted at
 your mount on to yourself (except area-of-effect damage). You can also
-equip your mount with appropriate barding (AV2, 2 inventory slots)</p>
+equip your mount with appropriate barding (+2 AC, 2 inventory slots)</p>
 <p><strong>C: Raider.</strong> You are used to traveling large distances
 at night and camping without fire. You only need 1
 <strong>Watch</strong> for a Good Night’s Rest and no campfire is
@@ -3623,33 +3626,39 @@ silently</strong> while being mounted.</p>
 <div id="skirmisher" class="section level2">
 <h2><strong>SKIRMISHER</strong></h2>
 <p><strong>Starting Equipment:</strong> bow, 20 arrows, spear, shield,
-50’ of rope.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light and medium
-armor and shields, all melee weapons.</p>
+50’ of rope. You cannot wear heavy armor.</p>
 <p><strong>A: Move Like Water, Tricky, +1 HP</strong></p>
-<p><strong>B: Evasion, Opportunist, +1 HP</strong></p>
+<p><strong>B: Evasion, Opportunist, +1 HP, +1 To-Hit</strong></p>
 <p><strong>C: Acrobatics, Lucky, +1 HP</strong></p>
-<p><strong>D: Great Escape, Reflect, Extra Attack, +1 HP</strong></p>
-<p>Gain +1 to Move Silently &amp; Unseen for each Skirmisher template
+<p><strong>D: Great Escape, Reflect, Extra Attack, +1 HP, +1
+To-Hit</strong></p>
+<p>Gain +1HP and +1 to Move Silently &amp; Unseen for each Skirmisher
+template that you possess.</p>
+<p><strong>A: Move Like Water.</strong> While unarmored, add both your
+<strong>CHA</strong> and your <strong>DEX bonus</strong> to AC.</p>
+<p><strong>A: Tricky.</strong> You gain +2 on all Combat Maneuver rolls
+(page 11).</p>
+<p>On a critical hit you may also make a free attack against the target
+of your combat maneuver or another enemy within range of your
+weapon.</p>
+<p>If you did not move this round, or split movement, you may make a
+full move to engage a second target. Reducing them to 0HP activates this
+ability again.</p>
+<p>You may engage 1 foe with this ability for each Skirmisher templates
 that you possess.</p>
-<p><strong>A: Move Like Water.</strong> While unarmored, your AV us
-equal to <strong>PER</strong> + <strong>DEX</strong>, divided by 2
-(rounded down), up to a maximum of 4.</p>
-<p><strong>A: Tricky.</strong> You gain <strong>Advantage</strong> on
-all Combat Maneuver rolls.</p>
 <p><strong>B: Evasion.</strong> You have advantage on <strong>DEX
 saves</strong> vs attacks, as long as you can see the attack coming. If
 a success would 1⁄2 the damage, you instead take no damage.</p>
 <p>Treat fall distance as half for determining damage.</p>
 <p><strong>B: Opportunist.</strong> Whenever you have a situational
 bonus (surprise, elevation, benefit from a <strong>combat
-maneuver</strong>, etc.) your attacks have
-<strong>advantage</strong>.</p>
+maneuver</strong>, etc.) your attacks deal an additional +1d6
+damage.</p>
 <p><strong>C: Acrobatics.</strong> You can jump twice as far as normal
 (<strong>STR+10</strong> x2). If there is a stable wall, you can instead
 wall-run four times as far (<strong>STR+10</strong> x4).</p>
-<p><strong>C: Lucky.</strong> You always have at least 1 Luck available
-per day.</p>
+<p><strong>C: Lucky.</strong> Once per encounter you can re-roll a
+failed attack or Save. Use the new result.</p>
 <p><strong>D: Great Escape.</strong> Once per day you can escape from
 something that is restraining you and that can plausibly be escaped
 from.</p>
@@ -3657,7 +3666,7 @@ from.</p>
 sealed coffins.</p>
 <p><strong>D: Reflect.</strong> Once per encounter you can reduce the
 damage of a physical ranged attack by 1d6, +1 for each Skirmisher
-template that you possess.</p>
+template that you possess. No roll is necessary.</p>
 <p>If this reduces the damage to 0, a target of your choosing is hit by
 the attack instead.</p>
 <table>
@@ -3814,12 +3823,11 @@ Warrior Princess, Brad Pitt’s Achilles, or Oberyn Martell.</p>
 <div id="thief" class="section level2">
 <h2><strong>THIEF</strong></h2>
 <p><strong>Starting Equipment</strong>: light armor, files, lock- picks,
-dagger.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, shortsword, rapiers, longsword, whip, staff, crossbow, sling.</p>
+dagger. You cannot wear heavy armor.</p>
 <p><strong>A: Always Prepared, Rumors, Wall Crawler</strong></p>
 <p><strong>B: Pick 1 Thief Ability, Roll 1 Thief Ability</strong></p>
-<p><strong>C: Pick 1 Thief Ability, Roll 1 Thief Ability</strong></p>
+<p><strong>C: Pick 1 Thief Ability, Roll 1 Thief Ability, +1
+To-Hit</strong></p>
 <p><strong>D: Pick 1 Thief Ability Roll 1 Thief Ability</strong></p>
 <p>You have advantage on <strong>DEX saves</strong> made to move
 silently and unseen, but only when you are alone or working with other
@@ -3833,7 +3841,7 @@ flasks) will be of a quantity sufficient to fill the Item Slot. You can
 have up to two Unlabelled Packages at a time.</p>
 <p><strong>A: Rumors.</strong> When entering a steading for the first
 time, or returning from an adventure, you may learn one rumor
-automatically without making a <strong>Save vs PER</strong>.</p>
+automatically without making a <strong>Save vs Charisma</strong>.</p>
 <p><strong>A: Wall Crawler</strong>. Wall Crawler is a permission slip
 to get almost anywhere you like. You climb just as well without climbing
 gear as with it. If a climb is possible using gear, you don’t need to
@@ -3870,8 +3878,7 @@ you.</td>
 <td>3</td>
 <td><strong>Backstab</strong></td>
 <td>Whenever you have a situational bonus to an Attack roll (surprise,
-elevation, etc.) attacks are rolled with
-<strong>Advantage</strong>.</td>
+elevation, etc.) attacks that hit deal an additional +1d6 damage.</td>
 </tr>
 <tr class="even">
 <td>4</td>
@@ -3882,7 +3889,7 @@ darkness.</td>
 <tr class="odd">
 <td>5</td>
 <td><strong>Camouflage</strong></td>
-<td>Cover grants you an extra +1 AV against ranged attacks.</td>
+<td>Cover grants you an extra +1 AC.</td>
 </tr>
 <tr class="even">
 <td>6</td>
@@ -3895,8 +3902,7 @@ magical concealment).</td>
 <tr class="odd">
 <td>7</td>
 <td><strong>Delicate Tasks</strong></td>
-<td>Gain <strong>Advantage</strong> on DEX saves to disable traps and
-pick locks.</td>
+<td>Gain +4 on DEX saves to disable traps and pick locks.</td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -3909,7 +3915,7 @@ sealed coffins.</td>
 <tr class="odd">
 <td>9</td>
 <td><strong>Lucky</strong></td>
-<td>You have at least 1 Luck available per day.</td>
+<td>1/day reroll a D20.</td>
 </tr>
 <tr class="even">
 <td>10</td>
@@ -3939,7 +3945,7 @@ Forward. Max storage: 1 hour. It’s very smart.</td>
 <td>14</td>
 <td><strong>Second Chance</strong></td>
 <td>When you trigger a trap you hear a “click”. <strong>Save vs
-WIT</strong>. Success means you did not trigger the trap and you know
+INT</strong>. Success means you did not trigger the trap and you know
 exactly what would have happened if you did.</td>
 </tr>
 <tr class="odd">
@@ -3964,15 +3970,15 @@ reputation for getting them killed.</td>
 <tr class="even">
 <td>18</td>
 <td><strong>Very Lucky</strong></td>
-<td>Requires Lucky. You have at least 2 Luck available per day. An
-adjacent ally can use one of your re-rolls, provided you could have
+<td>Requires Lucky. You may use your Lucky ability twice per day. An
+adjacent ally can use one of your rerolls, provided you could have
 plausibly assisted them.</td>
 </tr>
 <tr class="odd">
 <td>19</td>
 <td><strong>Watchful</strong></td>
-<td>Gain <strong>Advantage</strong> on rolls to <strong>Find Hidden
-Things</strong>. You can’t be snuck past.</td>
+<td>Gain +4 on rolls to <strong>Find Hidden Things</strong>. You can’t
+be snuck past.</td>
 </tr>
 <tr class="even">
 <td>20</td>
@@ -4088,11 +4094,10 @@ them, depending on what they pick and what they roll.</p>
 skills, King of Beggars</p>
 <p><strong>Starting Equipment</strong>: light armor, dagger. You cannot
 wear heavy armor.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: Hobo Signs, Roughin’ It</strong></p>
 <p><strong>B: Roll 1 Thief Ability, Seasoned Traveler, +1HP</strong></p>
-<p><strong>C: Roll 1 Thief Ability, Hobo Song, +1HP</strong></p>
+<p><strong>C: Roll 1 Thief Ability, Hobo Song, +1HP, +1
+To-Hit</strong></p>
 <p><strong>D: Roll 1 Thief Ability, King of Beggars, +1HP</strong></p>
 <p>You have advantage on <strong>DEX saves</strong> made to move
 silently and unseen, but only when you are alone or working with other
@@ -4106,7 +4111,7 @@ rest. They recover 2 <strong>Fatigue</strong> with a <strong>Good
 Night’s Rest</strong>, even under bad weather conditions.</p>
 <p><strong>B: Seasoned Traveler.</strong> During
 <strong>Exploration</strong>, you decrease the party’s chances of
-getting lost by 1-6 and you increase the party’s chances of finding
+getting lostby 1-6 and you increase the party’s chances of finding
 interesting places by 1-6.</p>
 <p><strong>C: Hobo Song.</strong> You can know inspiring Hobo songs and
 tall tales. During a <strong>lunch</strong>, you can can entertain the
@@ -4114,7 +4119,7 @@ party. Each member recovers 1 level of <strong>Fatigue</strong>. This
 benefit can only be received once per day.</p>
 <p><strong>D: King of Beggars.</strong> You can call on the help of
 local beggars and street urchins. Gain 1d12 temporary hirelings that
-help you for the day for free.</p>
+help you for the dayfor free.</p>
 </div>
 </div>
 <div id="spellcasting-classes" class="section level1">
@@ -4123,8 +4128,6 @@ help you for the day for free.</p>
 <h2><strong>ORTHODOX WIZARD</strong></h2>
 <p><strong>Starting Equipment:</strong> Spellbook, ink, quill. You can
 wear light armor but would probably prefer magic robes?</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: +1 MD, +1 Signature Spell (1d6), Spellcasting,
 Cantrips</strong></p>
 <p><strong>B: +1 MD, +1 Signature Spell (1d8), Book Casting, Arcane
@@ -4153,7 +4156,7 @@ them return to your pool anyway.</p>
 <p><strong>A: Spellcasting.</strong> You gain the ability to cast
 spells. See <strong>Magic and Spells</strong> for details on how
 spellcasting works. The wizard’s spellcasting ability is
-<strong>WIT</strong>.</p>
+<strong>INT</strong>.</p>
 <p><strong>A: Cantrips</strong> You have mastered minor magics:</p>
 <ol style="list-style-type: decimal">
 <li><p>Change the color or texture of an object smaller than a horse for
@@ -4183,7 +4186,7 @@ wizard attempts to apply to a spell.</p>
 without destroying the scroll. See <strong>Magic and Spells</strong> for
 more details.</p>
 <p><strong>D: Iron Will.</strong> You can control the results of your
-spellcasting through your iron will. <strong>Save vs PER</strong> to
+spellcasting through your iron will. <strong>Save vs WIS</strong> to
 change the result of one of your rolled MD by one point. This can be
 used to increase the effect of your spell or avoid a
 <strong>Mishap</strong>.</p>
@@ -4196,7 +4199,7 @@ from the <strong>D100 Spells</strong> table (see <strong>MAGIC AND
 SPELLS</strong>). Consider this spell an ongoing project between you and
 the Referee. You may tweak and control it’s effects through play.</p>
 <p>The process takes 1 month of uninterrupted work. When completed, make
-a <strong>Save vs WIT</strong> with a -5 modifier or suffer
+a <strong>Save vs INT</strong> with a -5 modifier or suffer
 <strong>1d3</strong> simultaneous <strong>Mishaps</strong>.</p>
 <p>Gain a +1 bonus to your save for:</p>
 <p><strong>a)</strong> every 150 gp spent on reagents, inks, magical
@@ -4225,7 +4228,7 @@ destroyed resources.</p>
 <p>A scribe costs 50 gp per month and requires an additional 100 sq. ft.
 of living space.</p>
 <p>To conduct research or create a magic item the wizard makes an
-<strong>WIT Save</strong>. If successful the sanctum loses 1d6x100 gp
+<strong>INT Save</strong>. If successful the sanctum loses 1d6x100 gp
 due to supplies used. If failed, wasted supplies and accidents reduce
 the value of the sanctum by 2d6 x100 gp.</p>
 <p>With a critical success the sanctum loses no resources. On a critical
@@ -4236,7 +4239,7 @@ class table.</p>
 <p>These costs are in addition to those listed on the <strong>Magic
 Crafting Table</strong>. Attempting any of the above without a proper
 sanctum is not impossible, but a wizard triples their costs, the time
-required, and make all <strong>WIT Saves</strong> with disadvantage.</p>
+required, and make all <strong>INT Saves</strong> with disadvantage.</p>
 <p>The time and cost reflect the fickle nature of working with sentient
 spells, and the special materials needed to create the binding wards
 necessary to contain them. A wizard can reduce the time (and thus cost)
@@ -4546,8 +4549,6 @@ always ignorant superstition. Attracting the attention of powerful
 spirits is very dangerous.</p>
 <p><strong>Starting Equipment:</strong> Spellbook, ink, quill. You can
 wear light armor but would probably prefer magic robes?</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: +1 MD, +1 Signature Spell (1d6), Spellcasting,
 Cantrips</strong></p>
 <p><strong>B: +1 MD, +1 Signature Spell (1d8), Book Casting, Elemental
@@ -4572,7 +4573,7 @@ select the spell above or below it on the list.</p>
 still can learn and cast spells from outside your school.</p>
 <p>All of your MD return if you get a <strong>Good Night’s
 Rest</strong>. If you didn’t sleep well or your rest was disrupted by a
-hazard or combat, make a <strong>PER save</strong> for each MD to have
+hazard or combat, make a <strong>WIS save</strong> for each MD to have
 them return to your pool anyway.</p>
 <p><strong>A: Spellcasting.</strong> You gain the ability to cast
 spells. See <strong>Magic and Spells</strong> for details on how
@@ -4595,7 +4596,7 @@ damaging effect.</p></li>
 <p><strong>B: Elemental Resistance.</strong> +3 to Save or AC vs
 Elemental damage. No bonus against non-damaging effects.</p>
 <p><strong>B: Elemental Recovery.</strong> During <strong>Lunch</strong>
-you can attempt to recover one lost MD. <strong>Save vs PER</strong> to
+you can attempt to recover one lost MD. <strong>Save vs WIS</strong> to
 return a lost MD to your pool.</p>
 <p><strong>B: Book Casting.</strong> You can cast spells from a
 spellbook or scroll without making them a <strong>Signature
@@ -4614,7 +4615,7 @@ spell list.</p>
 <p>With the proper materials, time, and a wizard’s sanctum you can now
 create magic items.</p>
 <p><strong>D: Iron Will.</strong> You can control the results of your
-spellcasting through your iron will. <strong>Save vs PER</strong> to
+spellcasting through your iron will. <strong>Save vs WIS</strong> to
 change the result of one of your rolled MD by one point. This can be
 used to increase the effect of your spell or avoid a
 <strong>Mishap</strong>.</p>
@@ -4816,8 +4817,6 @@ cut the ties that let elementals identify you.</p>
 quill,rainbow-colored gloves or ridiculously large rainbow-colored
 scarf. You can wear light armor but would probably prefer magic
 robes?</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: +1 MD, +1 Signature Spell (1d6), Spellcasting,
 Cantrips</strong></p>
 <p><strong>B: +1 MD, +1 Signature Spell (1d8), Book Casting, Illusory
@@ -4847,7 +4846,7 @@ them return to your pool anyway.</p>
 <p><strong>A: Spellcasting.</strong> You gain the ability to cast
 spells. See <strong>Magic and Spells</strong> for details on how
 spellcasting works. The Illusionist’s spellcasting ability is
-<strong>WIT</strong>.</p>
+<strong>INT</strong>.</p>
 <p><strong>Drawback:</strong> You cannot cast spells unless you can see
 all 7 primary colors (via your gloves or scarf if nothing else is
 available). Your magic supplies the 8th: octarine.</p>
@@ -4875,7 +4874,7 @@ book casting works.</p>
 you can attempt to recover one lost MD. <strong>Save vs WIS</strong> to
 return a lost MD to your pool.</p>
 <p><strong>C: Lasting Illusions.</strong> If you control an illusion and
-it is within line of sight, you can change its nature or form once per
+it is within line of sight, you can change it’s nature or form once per
 round. You could use illusion to create a goblin and then, when pursued,
 transform it into a tiger. Illusions will still work outside of your
 line of sight, and will exhibit reasonably correct behaviors. A
@@ -4889,7 +4888,7 @@ create magic items.</p>
 <p><strong>D: Spell Creation.</strong> See Wizard class description for
 details.</p>
 <p><strong>D: Iron Will.</strong> You can control the results of your
-spellcasting through your iron will. <strong>Save vs PER</strong> to
+spellcasting through your iron will. <strong>Save vs WIS</strong> to
 change the result of one of your rolled MD by one point. This can be
 used to increase the effect of your spell or avoid a
 <strong>Mishap</strong>.</p>
@@ -5093,8 +5092,6 @@ provide.</p>
 <p><strong>Starting Equipment:</strong> Spellbook, ink, quill, dark
 robes and a bone mask. You can wear light armor but would probably
 prefer magic robes?</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: +1 MD, +1 Signature Spell (1d6), Spellcasting,
 Cantrips</strong></p>
 <p><strong>B: +1 MD, +1 Signature Spell (1d8), Book Casting, Necrotic
@@ -5110,7 +5107,7 @@ into other spellcasting classes, though you may gain templates from
 other Adventurer or otherwise magical classes.</p>
 <p>When you select Template A, roll 1d6 gain the spell listed as a
 <strong>Signature Spell</strong>. You can repeat this process for each
-<strong>WIT</strong> ability bonus you have (but you can also reserve
+<strong>Int</strong> ability bonus you have (but you can also reserve
 this for spells you find while adventuring). When you receive Template
 B, roll 1d8. Template C, roll 1d10. If a duplicate spell is rolled,
 select the spell above or below it on the list.</p>
@@ -5167,7 +5164,7 @@ create magic items.</p>
 <p><strong>D: Spell Creation.</strong> See Wizard class description for
 details.</p>
 <p><strong>D: Iron Will.</strong> You can control the results of your
-spellcasting through your iron will. <strong>Save vs PER</strong> to
+spellcasting through your iron will. <strong>Save vs WIS</strong> to
 change the result of one of your rolled MD by one point. This can be
 used to increase the effect of your spell or avoid a
 <strong>Mishap</strong>.</p>
@@ -5445,8 +5442,6 @@ you are in need of an Animist Wizard… or ready to become one.</p>
 <p><strong>Starting Equipment:</strong> Spellbook, ink, quill, practical
 traveling robes. You can wear light armor but would probably prefer
 magic robes?</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: +1 MD, +1 Signature Spell (1d6), Spellcasting,
 Cantrips</strong></p>
 <p><strong>B: +1 MD, +1 Signature Spell (1d8), Book Casting, Hex
@@ -5469,7 +5464,7 @@ select the spell above or below it on the list.</p>
 still can learn and cast spells from outside your school.</p>
 <p>All of your MD return if you get a <strong>Good Night’s
 Rest</strong>. If you didn’t sleep well or your rest was disrupted by a
-hazard or combat, make a <strong>PER save</strong> for each MD to have
+hazard or combat, make a <strong>WIS save</strong> for each MD to have
 them return to your pool anyway.</p>
 <p><strong>A: Spellcasting.</strong> You gain the ability to cast
 spells. See <strong>Magic and Spells</strong> for details on how
@@ -5495,17 +5490,17 @@ spellbook or scroll without making them a <strong>Signature
 Spell</strong>. See <strong>Magic and Spells</strong> for details on how
 book casting works.</p>
 <p><strong>B: Hex Recovery.</strong> During <strong>Lunch</strong> you
-can attempt to recover one lost MD. <strong>Save vs PER</strong> to
+can attempt to recover one lost MD. <strong>Save vs WIS</strong> to
 return a lost MD to your pool.</p>
 <p><strong>B: Bonded Words.</strong> If someone makes a bargain with you
-and breaks it, <strong>save vs PER</strong>. If you pass, you instantly
+and breaks it, <strong>save vs WIS</strong>. If you pass, you instantly
 know about it. Your spells can target parasites and unborn children
 without targeting their hosts. What counts as a “parasite” is up to the
 Referee.</p>
 <p><strong>C: Hex.</strong> You bring misfortune on a creature you see.
 Spend an Action to impose <strong>Disadvantage</strong> on the
-creature’s next roll. The creature gets to <strong>save vs PER</strong>
-to resist. On a success <strong>Disadvantage</strong> is reduced to a
+creature’s next roll. The creature gets to <strong>save vs WIS</strong>
+to resist. On a success <strong>Disadvanatge</strong> is reduced to a
 <strong>-2</strong> modifier.</p>
 <p><strong>D: Master of Magic.</strong> Learn any 5 spells from your
 spell list.</p>
@@ -5979,8 +5974,6 @@ mutation, mutant vermin, and Cronenbergian horrors. Not welcome
 anywhere.</p>
 <p><strong>Starting Equipment:</strong> Thick robes and hood, carving
 knife, spellbook and quill.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: +1 MD, +1 Signature Spell (1d6), Spellcasting,
 Cantrips</strong></p>
 <p><strong>B: +1 MD, +1 Signature Spell (1d8), Book Casting, Vital
@@ -6005,7 +5998,7 @@ select the spell above or below it on the list.</p>
 still can learn and cast spells from outside your school.</p>
 <p>All of your MD return if you get a <strong>Good Night’s
 Rest</strong>. If you didn’t sleep well or your rest was disrupted by a
-hazard or combat, make a <strong>PER save</strong> for each MD to have
+hazard or combat, make a <strong>WIS save</strong> for each MD to have
 them return to your pool anyway.</p>
 <p><strong>Spellcasting</strong> You gain the ability to cast spells.
 See <strong>Magic and Spells</strong> for details on how spellcasting
@@ -6027,8 +6020,8 @@ book casting works.</p>
 can attempt to recover one lost MD. <strong>Save vs WIS</strong> to
 return a lost MD to your pool.</p>
 <p><strong>B: Revivify.</strong> Once per day, with a single action,
-your body can either: regain 2d6 HP; get a <strong>Save vs STR</strong>
-to shrug off the effects of a poison, get a <strong>Save vs STR</strong>
+your body can either: regain 2d6 HP; get a <strong>Save vs CON</strong>
+to shrug off the effects of a poison, get a <strong>Save vs CON</strong>
 to rid yourself of a disease, or <strong>Save vs CON</strong> to remove
 1 <strong>Fatigue</strong>.</p>
 <p><strong>C: Body Control.</strong> Once per day, for a single Random
@@ -6041,7 +6034,7 @@ create magic items.</p>
 <p><strong>D: Spell Creation.</strong> See Wizard class description for
 details.</p>
 <p><strong>D: Iron Will.</strong> You can control the results of your
-spellcasting through your iron will. <strong>Save vs PER</strong> to
+spellcasting through your iron will. <strong>Save vs WIS</strong> to
 change the result of one of your rolled MD by one point. This can be
 used to increase the effect of your spell or avoid a
 <strong>Mishap</strong>.</p>
@@ -6155,8 +6148,6 @@ grow.</p></li>
 <p>A cleric channels their faith into minor miracles.</p>
 <p><strong>Starting Equipment:</strong> light armor, weapon of choice,
 small collection of charms &amp; talismans.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light and medium
-armor and shields, dagger, club, staff, sling, mace, Warhammer.</p>
 <p><strong>A: Relics Icons &amp; Charms, +2 Canticles (1d4), +1
 HP</strong></p>
 <p><strong>B: Natural Philosophy, +1 Canticle (1d6), +1 HP</strong></p>
@@ -6179,7 +6170,7 @@ gain a new canticle. Roll a d8 with Template C. With Template D select
 any 3 new canticles.</p>
 <p>You may invest a number of FD equal to your Level+1 (max of 6 FD) per
 casting.</p>
-<p><strong>B: Natural Philosophy.</strong> A cleric’s study extends
+<p><strong>B: Natural Philosophy.</strong> A cleric’s study of extends
 beyond scripture, it involves the close study of body, mind, and
 soul.</p>
 <p>This leads to a strong working knowledge of herblore, the four basic
@@ -6191,7 +6182,7 @@ can remove the <strong>Frightened</strong>, <strong>Fatigued</strong> or
 <strong>Poisoned</strong> condition.</p>
 <p><strong>C: Signs &amp; Portents.</strong> In a mountain temple,
 roadside shrine, or village chapel you may spend 1 Turn in meditation to
-gain a divine insight or guidance. You might receive visions containing
+gain an divine insight or guidance. You might receive visions containing
 pertinent clues -though rarely clear direction.</p>
 <p><strong>D: Witch Hunter.</strong> You can smell the foul taint of
 necromancers, warlocks, cursed objects, and evil clerics. You are able
@@ -6334,8 +6325,6 @@ stats of an equivalent monster</td>
 <p><strong>Starting Equipment:</strong> obsidian spear or dagger, pelts
 (as light armor), wooden mask to conceal your human nature. You will not
 wear metal armor.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor and
-shields, dagger, club, staff, sling, spear.</p>
 <p><strong>A: Iron Guts, Skinchanger, +1 ND</strong></p>
 <p><strong>B: The Blood, Animism, +1 ND</strong></p>
 <p><strong>C: Old Tongue, Vine, +1 ND</strong></p>
@@ -6374,15 +6363,15 @@ as you’re not touching the ground.</p>
 <p>With template D you can slip free from any bonds or confinement you
 are placed in 1/day. Does not work in containers without an exit (sealed
 coffin, pocket dimension, etc.).</p>
-<p><strong>B: The Blood.</strong> You have advantage on <strong>PER
+<p><strong>B: The Blood.</strong> You have advantage on <strong>WIS
 saves</strong> to track a wounded creature. You can identify any
 creature that you have seen before by tasting it’s blood and estimate
 how old the blood is.</p>
 <p><strong>C: Vine.</strong> Cast vine seeds which grow up to ten feet
 instantly, across any solid surface. Can be used to climb walls, destroy
 weak structures, or immobilize an enemy (<strong>Save vs. STR</strong>
-to resist, lasts until they succeed on a save on their turn or until
-they are freed).</p>
+to resist, lasts until they succeed on a save on their turnor until they
+are freed).</p>
 <p><strong>C: Old Tongue.</strong> You speak the secret language of
 rocks, trees, and animals. You have advantage on reaction rolls when
 speaking to an animal, copse of trees, mushroom colony, or mountain for
@@ -6624,12 +6613,10 @@ threat to both.</td>
 <h2><strong>FEY STALKER</strong></h2>
 <p><strong>Starting Gear:</strong> Light Armor, Bow, Arrows (20, 1
 slot), Fletchers Kit.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-shortsword, club, staff, sling, bow, crossbow, spear, longsword,
-handaxe.</p>
 <p><strong>A: Fey Archery, +2 Enchantments, +1 MD</strong></p>
 <p><strong>B: Inhuman Accuracy, +1 Enchantment +1 MD</strong></p>
-<p><strong>C: Impossible Shot, +1 Enchantment, +1 MD</strong></p>
+<p><strong>C: Impossible Shot, +1 Enchantment, +1 MD, +1
+To-Hit</strong></p>
 <p><strong>D: Meld With Shadow, +4 Enchantments, +1 MD</strong></p>
 <p>Gain <strong>+1 Magic Die</strong> (MD) for each Fey Stalker template
 you possess, to a maximum of 4. Medium and Heavy Armor affect the MD of
@@ -6645,17 +6632,16 @@ encounter.</p>
 <p>When you select Template A, roll 1d6 twice and gain the enchantments
 listed. Template B, roll 1d8. Template C, roll 1d10. Template D, choose
 4 enchantments from the list.</p>
-<p>Enchantments either require an attack roll, a save from the target,
-or just work. The enchantment description will note which.</p>
+<p>Enchantments either require a to-hit roll, a save from the target, or
+just work. The enchantment description will note which.</p>
 <p><strong>B: Inhuman Accuracy</strong>. Your arrows appear to twist and
 turn in flight with uncanny precision. You ignore the penalty for
 shooting into melee combat.</p>
-<p><strong>C: Impossible Shot.</strong> Once per combat, you can make an
-impossible shot with a ranged weapon. The attack can target any
-creature, provided the target is within 2x the weapon’s listed range and
-there is a path from your to the target. The attack can bounce around
-corners, cut a coin in half, or part a single hair on a target’s head.
-Roll the damage with <strong>Advantage</strong>.</p>
+<p><strong>C: Impossible Shot.</strong> Once per encounter, you can make
+an impossible shot with a ranged weapon. The attack automatically hits,
+provided the target is within 2x the weapon’s listed range. The attack
+can bounce around corners, cut a coin in half, or part a single hair on
+a target’s head.</p>
 <p><strong>D: Meld With Shadow.</strong> Burn MD to meld with darkness
 for [dice]+[sum] rounds. MD invested in this ability are automatically
 lost for the day. While within dim light or darkness, you can walk on
@@ -6668,21 +6654,21 @@ pass any stealth checks.</p>
 <p><strong>1. Banshee Arrows</strong></p>
 <p><em>R: 50’, T: [dice]x2 creatures, D: 0</em></p>
 <p>Screams like a demon in flight and shrieks on impact. Affected
-creatures must make a PER Save or be frightened.</p>
+creatures must make a WIS Save or be frightened.</p>
 <p><strong>2. Breath of The Dragon Arrow</strong></p>
 <p><em>R: 50’, T: area, D: [dice] rounds x3</em></p>
 <p>The arrow trails brightly colored smoke that can, a) fill a
 [dice]x10’ square area or, b) a [sum]’ wide, 10’ tall, [dice]x20’ long
 wall of smoke.</p>
-<p>With 1MD the smoke lightly obscures an area, imposing
-<strong>Disadvantage</strong> on ranged attacks. With 2 MD all attacks
-are made at <strong>Disadvantage</strong> and creatures have advantage
-to hide. With 3 or more MD everyone in the affected area is blinded,
-except the fey stalker or any creature with magic or wizard vision.</p>
+<p>With 1MD the smoke lightly obscures an area, imposing -2 on ranged
+attacks. With 2 MD all attacks are made at -2 to-hit and creatures have
+advantage to hide. With 3 or more MD everyone in the affected area is
+blinded, except the fey stalker or any creature with magic or wizard
+vision.</p>
 <p><strong>3. Chaos Arrow</strong></p>
 <p><em>R: 50’, T: [dice] creatures, D: 0</em></p>
 <p>Affected creatures takes [dice]+[sum] damage and twitch-dances
-[sum]x5’ in a random direction. PER Save for 1⁄2 damage and to avoid
+[sum]x5’ in a random direction. WIS Save for 1⁄2 damage and to avoid
 being moved.</p>
 <p><strong>4. Sap Arrow</strong></p>
 <p><em>R: 50’, T: [dice] x5’ area, D: [sum] rounds</em></p>
@@ -6712,7 +6698,7 @@ or smaller.</p>
 <p>4 MD: target an object the size of a ogre or wagon.</p>
 <p><strong>8 Flesh-to-Stone Arrow</strong></p>
 <p><em>R: 50’, T: creature, D: [dice] rounds</em></p>
-<p><strong>PER save</strong> or target becomes
+<p><strong>WIS save</strong> or target becomes
 <strong>paralyzed</strong>. Apply a -[dice] modifier to the
 <strong>save</strong>.</p>
 <p><strong>9. Ricochet Arrow</strong></p>
@@ -6732,8 +6718,8 @@ entangling vines. Save ends.</p>
 <p><em>R: 75’ T: varies, D: 0</em></p>
 <p>Make a ranged attack roll. Target takes 1d6+STR damage.</p>
 <p>Each MD invested in this spell allow you to fire an additional arrow
-at the same target with a stacking +2 to damage, or at a new target with
-no additional bonus.</p>
+at the same target with a stacking +2 to hit, or at a new target with no
+additional bonus.</p>
 <p><strong>12. Blink Arrow</strong></p>
 <p><em>R: 50’, T; area, D: 0</em></p>
 <p>Fire an arrow at an area you can see. The arrow trails an arcane
@@ -6774,22 +6760,19 @@ place.</p>
 <p><strong>Starting Equipment:</strong> witchlock arquebux (2 slots),
 dagger (1/3 slot), leather armor, cartridge box &amp; hayago (1
 slot).</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, medium
-armor, shields, dagger, shortsword, club, handaxe, longsword, crossbow,
-bow, staff, spear, battle axe, flail, mace.</p>
-<p><strong>A: Gear Empathy, Word of Law, +1 MD, +2 HP, +2 Bullet Prayers
-(roll 1d6)</strong></p>
+<p><strong>A: Gear Empathy, Word of Law, +1 MD, +2 Bullet Prayers (roll
+1d6)</strong></p>
 <p><strong>B: Read Stone, Roots of The Mountain, +1 MD, +1 Bullet Prayer
 (1d8)</strong></p>
-<p><strong>C: Powder Sprite, Smoldering, +1 MD, +2HP, +1 Bullet Prayer
-(1d10)</strong></p>
+<p><strong>C: Powder Sprite, Smoldering, +1 MD, +1 Bullet Prayer (1d10),
++1 To-Hit</strong></p>
 <p><strong>D: Arcanum, Dead Eye, +1 MD, +4 Bullet Prayers</strong></p>
-<p>You gain <strong>+1 to Find Hidden Things</strong> (doors,
+<p>You are a dwarf. You gain <strong>+2 HP</strong> with template A
+&amp; C. You gain <strong>+1 to Find Hidden Things</strong> (doors,
 pressure-plates, tripwires, etc.) with template B &amp; D.</p>
 <p><strong>A: Gear Empathy.</strong> Attuned to arcane machinery and
 gearworks, Dwarvish Gun Priests understand machines better than they do
-people. You gain <strong>Advantage</strong> to repair, modify, or
-sabotage mundane machines.</p>
+people. You gain +2 to repair, modify, or sabotage mundane machines.</p>
 <p><strong>A: Word of Law.</strong> The invisible laws that bind reality
 are as words on the page to the Gun Priest. You can speak with authority
 when trying to convince others. Gain <strong>Advantage</strong> on Saves
@@ -6799,9 +6782,8 @@ secret doors in a dungeon level have been found.</p>
 <p><strong>B: Roots of The Mountain.</strong> As long as one foot is
 planted firmly on the ground you have advantage on saves to resist being
 knocked prone, shoved, or otherwise moved.</p>
-<p>You also gain <strong>Advantage</strong> on rolls to perform the
-following <strong>combat maneuvers</strong>: grapple, shove,
-knock-down.</p>
+<p>You also gain <strong>+2</strong> on rolls to perform the following
+<strong>combat maneuvers</strong>: grapple, shield bash, trip.</p>
 <p><strong>C: Powder Sprite.</strong> Recruit a powder sprite–a familiar
 which can reload your arquebux (cancelling the reload time), be consumed
 for +1 MD (non-recoverable, like a scroll), or be sacrificed as a
@@ -7178,28 +7160,27 @@ explode. 5d6 damage, 50’ radius.</td>
 <div id="monk" class="section level2">
 <h2><strong>MONK</strong></h2>
 <p><strong>Starting Equipment:</strong> robes, big prayer beads.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-shortsword, club, handaxe, longsword, bow, staff, spear, sling.</p>
 <p><strong>A: Martial Arts, Qi Training, +1QD, +1HP</strong></p>
 <p><strong>B: The Path of Water, Qi Recovery, +1 HP, +1QD</strong></p>
-<p><strong>C: Arrow Frog Hallucination Stance, +1QD, +1HP</strong></p>
+<p><strong>C: Arrow Frog Hallucination Stance, +1QD, +1HP, +1
+To-Hit</strong></p>
 <p><strong>D: Crane Steps Softly Through Spring Reeds, +1 HP,
 +1QD</strong></p>
 <p><strong>A: Martial Arts.</strong> Your unarmed strikes deal 1d6 +STR
 damage &amp; count as melee weapons.</p>
 <p><strong>A: Qi Training.</strong> Qi dice (QD) are d6s and work like
 magic dice. Qi Dice are spent to activate Qigong Techniques. For each
-Monk template, you learn a new Qi technique. Select one from the options
-presented below at the appropriate template level. Some Monks may
-discover additional techniques in remote temples or studying with hidden
-masters.</p>
+Monk template, your learn a new Qi technique. Select one from the
+options presented below at the appropriate template level. Some Monks
+may discover additional techniques in remote temples or studying with
+hidden masters.</p>
 <p>For every QD that you invest in a martial arts attack, you can
-inflict an additional +1 damage to your target. For every 2 QD that you
-invest, you can attack another foe that is in range <strong>or</strong>
-unleash a Qigong technique (on top of your regular damage). Investing
-too much is dangerous.</p>
-<p>If you invest 3QD make a <strong>Save vs STR</strong> or suffer a
-level of <strong>fatigue</strong>.</p>
+inflict an additional 1d6 damage to your target <strong>or</strong> deal
+1d6 damage to another foe that is in range <strong>or</strong> unleash a
+Qigong technique (on top of your regualr damage). Investing too much is
+dangerous.</p>
+<p>If you invest 3QD make a <strong>Save vs Constitution</strong> or
+suffer a level of <strong>fatigue</strong>.</p>
 <p>At 4QD you automatically suffer 2 levels of
 <strong>fatigue</strong></p>
 <p>Qi dice are restored after a <strong>Good Night’s Rest</strong>. If
@@ -7207,12 +7188,11 @@ you do not get a good night’s rest or your rest is disrupted by a hazard
 or combat, make a <strong>WIS save</strong> for each QD to recover it
 anyway.</p>
 <p><strong>B: The Path of the Water.</strong> While you are unarmored
-and not wielding a shield, your AV is equal to PER+DEX, divided by two
-(rounded down), up to a maximum of 4.</p>
+and not wielding a shield, add both your WIS and DEX Bonus to AC.</p>
 <p><strong>B: Qi Recovery.</strong> During <strong>Lunch</strong>,
-<strong>Save vs PER</strong> to remove one level of
-<strong>Fatigue</strong> (in addition to regular fatigue recovery) or
-<strong>save vs PER</strong> to recover a lost QD.</p>
+<strong>Save vs WIS</strong> to remove one level of
+<strong>Fatigue</strong> (in addition to regualr fatigue recovery) or
+<strong>save vs WIS</strong> to recover a lost QD.</p>
 <p><strong>C: Arrow Frog Hallucination Stance.</strong> When an attack
 allows a save for 1⁄2 damage, you instead take no damage.</p>
 <p><strong>D: Crane Steps Softly Through Spring Reeds.</strong> Your
@@ -7227,7 +7207,7 @@ that you possess.</p>
 <p><strong>A: Open Hand Bell Strike</strong></p>
 <p><em>R: melee touch, T: creature, D: instant</em></p>
 <p>Only effective against foes of equal or lower HD than you. Creature
-makes a STR Save, with a -[dice] penalty or be stunned until the end of
+makes a CON Save, with a -[dice] penalty or be stunned until the end of
 your next turn.</p>
 <p>At 2 [dice] the creature is incapacitated. At 3 [dice] they are
 paralyzed. At 4+ [dice] the creature dies.</p>
@@ -7482,34 +7462,32 @@ them.</td>
 <div id="paladin" class="section level2">
 <h2><strong>PALADIN</strong></h2>
 <p><strong>Starting equipment:</strong> Sword, chainmail, holy
-symbol</p>
-<p><strong>Weapon and armor proficiencies</strong>: All armor and
-shields, all weapons.</p>
+symbol,</p>
 <p><strong>A: Smite, Detect Evil, +1FD, +1HP</strong></p>
 <p><strong>B: Strength of Will, Protector, +1FD, +1HP</strong></p>
-<p><strong>C: Lay on Hands, Stand Tall, +1FD, +1HP</strong></p>
+<p><strong>C: Lay on Hands, Stand Tall, +1FD, +1HP, +1
+To-Hit</strong></p>
 <p><strong>D: Avatar, +1FD, +1HP</strong></p>
 <p>A Paladin receives Faith Die (FD) with each template. They operate
 like Magic Die (but are not affected by Medium or Heavy Armor).</p>
-<p><strong>A: Smite.</strong> +[dice] to Attack, ignores AV of undead
-foes. If you are using a melee weapon, you can cast this spell with your
-attack.</p>
+<p><strong>A: Smite.</strong> +[dice] to Attack, +[sum] to damage,
+ignores undead damage reduction. If you are using a melee weapon, you
+can cast this spell after an attack.</p>
 <p><strong>A: Detect Evil.</strong> You can smell it, “it” being demons,
-devils, cultists, heretics and the undead. Check your PER for
+devils, cultists, heretics and the undead. Check your Wisdom for
 specifics.</p>
 <p><strong>B: Strength of Will.</strong> You can pray instead of eating
 a ration for lunch. You still need to eat each night to be able to have
 lunch the next day. Take +3 to saves against disease, transformation and
-sinful behavior.</p>
-<p><strong>B: Protector</strong> If you are adjacent to an ally targeted
-by an attack, you can use your <strong>Reaction</strong> to take the
-damage instead.</p>
+sinful behaviour.</p>
+<p><strong>B: Protector</strong> If you are protecting an ally, you gain
+<strong>Advantage</strong> on the <strong>Guard</strong> maneuver.</p>
 <p><strong>C: Lay on Hands.</strong> Pray over the injured for [dice]
 minutes. Heal [sum] HP, or deal [sum] damage to a possessing
 spirit/disease/demon without harming the host.</p>
 <p><strong>Stand Tall</strong> While you stand in defense of the truly
 deserving, you have a chance to remain standing, even with 0 HP. When
-you hit 0 HP, <strong>save vs PER</strong>. On a success you remain
+you hit 0 HP, <strong>save vs CH</strong>. On a success you remain
 conscious with 1 HP.</p>
 <p><strong>D: Avatar.</strong> You gain [dice] beneficial mutations that
 represents your calling for [sum] minutes. Wings, razor-halo, guardian
@@ -7551,8 +7529,6 @@ world reshapes itself to their whims. Something within a sorcerer allows
 them to touch and alter the very fabric of Creation and they are all
 absolutely nuts.</p>
 <p><strong>Starting Equipment:</strong> Outlandish Costume</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: Soul Casting, +1 SD</strong></p>
 <p><strong>B: Billowing Robes, +1 SD</strong></p>
 <p><strong>C: Soul Vision, +1 SD</strong></p>
@@ -7769,8 +7745,6 @@ opposite of what is intended).</td>
 <p>Taken from: <a href="https://coinsandscrolls.blogspot.com/2018/05/osr-class-summoner-20.html" class="uri">https://coinsandscrolls.blogspot.com/2018/05/osr-class-summoner-20.html</a></p>
 <p><strong>Starting Equipment</strong>: 2 sets of mundane robes,
 dagger</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: +1 SD, +2 Entities, Summoning</strong></p>
 <p><strong>B: +1 SD, +1 Entity, Powerful Hold</strong></p>
 <p><strong>C: +1 SD, +1 Entity, Soul Vision</strong></p>
@@ -7807,15 +7781,16 @@ ability applies to.</p>
 creatures. This allows you to guess the approximate location of
 invisible creatures. You can also immediately tell if a person is
 possessed, undead, or a spellcaster. The price for this gift is your
-connection to others–when trying to socially interact with others, you
-have <strong>Disadvantage</strong> on any save.</p>
+connection to others. You permanently lose 1d6 Wisdom (as the constant
+scrutiny of souls warps your mind) or 1d6 Charisma (as you become
+callous and jaded).</p>
 <p><strong>D: Master Summoner.</strong> Roll for 2 additional Entities.
 Alternatively, name an Entity you already control. For as long as you
 live, the Entity that you name will always remain with you. If [sum] or
 [dice] are required, use 2d6. This does not deplete your SD or cause
 Mishaps. You do not need to roll to summon it.</p>
 <p><strong>D: Iron Will.</strong> You can control the results of your
-summoning through your iron will. <strong>Save vs PER</strong> to change
+summoning through your iron will. <strong>Save vs WIS</strong> to change
 the result of one of your rolled SD by one point. This can be used to
 increase the effect of your summoning or avoid a
 <strong>Mishap</strong>.</p>
@@ -7835,11 +7810,9 @@ hours, as above. Return with 0 HP. 3. Vanish permanently.</p>
 <p><strong>Starting Equipment.</strong> A number of swords equal to the
 number of hands you have, jug of wine, a dramatically tattered
 cloak.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-shortsword, rapier, longsword.</p>
 <p><strong>A: Blade Barrier, Hands Clasped</strong></p>
 <p><strong>B: Steely Gaze, +1 SD</strong></p>
-<p><strong>C: Size Matters, +1 SD</strong></p>
+<p><strong>C: Size Matters, +1 SD, +1 To-Hit</strong></p>
 <p><strong>D: Swordspell, +2 SD</strong></p>
 <p>Beginning with template B you begin to accrue Sword Dice (SD).
 Initially they only buff blade barrier/strike but pay dividends with
@@ -7852,19 +7825,19 @@ template D. SD may be combined with normal magic dice (MD).</p>
 <p><strong>A: Blade Barrier.</strong> For each hand that you possess and
 every Sword Die currently in your pool, a 1-handed sword orbits your
 body. They rise and fall as you move and will wobble if jostled, but
-always return to an upright, point-downward, position. For every two
-swords you have floating around your body (rounded down) you gain +1
-AV.</p>
+always return to an upright, point-downward, position. For each sword
+you have floating around your body you gain +1 AC.</p>
 <p><strong>Blade Strike.</strong> You may attack normally as if your
 swords were a ranged (DEX) weapon, firing suddenly from their place at
 your side to lash out and stab an enemy.</p>
 <p>The range of this attack is 20 feet for each Swordcaster template
-that you possess. On a hit, the sword inflicts normal damage for its
-type and is embedded within the target until the end of your next turn
-when it vanishes and reappears in its normal orbit around your body.</p>
+that you possess. On a hit, the sword inflicts normal damage for it’s
+type (1d8, Arms &amp; Armor, RELIC page 6) and is embedded within the
+target until the end of your next turn when it vanishes and reappears in
+its normal orbit around your body.</p>
 <p>For every additional sword that you invest in this type of attack
-your gain a stacking +1 bonus to attack.</p>
-<p>Your AV is reduced by [swords] on the round that you attack and until
+your gain a stacking +1 bonus to-hit and +2 damage.</p>
+<p>Your AC is reduced by [swords] on the round that you attack and until
 the end of your next turn (2 rounds total). It is your responsibility to
 track this, not the Referee’s.</p>
 <p>Swords that miss their target fly off into the distance or embed
@@ -7876,6 +7849,7 @@ only that you cannot remove your hands from this state, or you will lose
 the ability to swordcast. Your feet work as well as hands for most
 tasks, and your bound hands may still be used to grapple, hug, or
 otherwise encircle someone.</p>
+<p>You cannot wear armor.</p>
 <p>When you stand in place you begin to float a foot off the ground but
 to move across the ground you must use your feet. For now.</p>
 <p>You can slowly (1/4 Move) float straight up/ down 5ft for each
@@ -7988,8 +7962,6 @@ Also, good luck climbing ropes with your feet.</p>
 <h2><strong>WARLOCK</strong></h2>
 <p><strong>Starting Equipment:</strong> Dagger, ragged cloak, 1d6 doses
 of some very good drugs.</p>
-<p><strong>Weapon and armor proficiencies</strong>: Light armor, dagger,
-club, staff, sling.</p>
 <p><strong>A: Pact, +1ED</strong> <strong>B: Cloak of Stars,
 +1ED</strong> <strong>C: Liquid Sanity, Spelleater, +1ED</strong>
 <strong>D: Part The Veil, +1ED</strong></p>
@@ -8437,7 +8409,7 @@ get good, no make stats better (except by list roll).</p>
 <div id="many-goblins" class="section level2">
 <h2><strong>MANY GOBLINS</strong></h2>
 <p>NOTE: This class template requires the Goblin ancestry but could
-easily be adapted to other small folk that operate in swarms.</p>
+easily be adapated to other small folk that operate in swarms.</p>
 <p>Many Goblins act as one character. There are a lot of them (though
 the exact amount seems to vary from scene to scene) and they contribute
 about as much as one actual character (at best). They are a bunch of
@@ -8951,7 +8923,8 @@ gatherings, church services).</td>
 dagger that you insist is a sword.</p>
 <p><strong>A: Second Breakfast, Nimble Hands &amp; Feet</strong></p>
 <p><strong>B: A Few Good Taters, Luck of the Small Folk</strong></p>
-<p><strong>C: Simple Pleasures, “Get Off The Road!”</strong></p>
+<p><strong>C: Simple Pleasures, “Get Off The Road!”, +1
+To-Hit</strong></p>
 <p><strong>D: A Nose For Trouble , Shifty Wee Bugger</strong></p>
 <p><strong>A: Second Breakfast.</strong> Also known as the Elevenses. A
 halfling is always hungry. Ravenously hungry. You consume twice as much
